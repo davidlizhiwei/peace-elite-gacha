@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "description": "钉钉群聊 webhook 配置文件 - 用于映射对话与群聊的关系",
+  "conversations": {
+    "im-dingtalk-work": {
+      "group_name": "工作群",
+      "webhook": "https://oapi.dingtalk.com/robot/send?access_token=a28857b2fb6219f617702dda638035351329fd6dd4fdcc8ac875f4ff8fb698bf",
+      "created_at": "2026-02-20T13:44:56",
+      "last_used": "2026-02-20T13:44:56"
+    }
+  },
+  "settings": {
+    "auto_register": true,
+    "default_group": "im-dingtalk-work"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "china_innovative_pharma_report.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlizhiwei/memory-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlizhiwei/memory-game/issues"
+  },
+  "homepage": "https://github.com/davidlizhiwei/memory-game#readme",
+  "dependencies": {
+    "docx": "^9.5.3",
+    "nodemailer": "^8.0.1"
+  }
+}

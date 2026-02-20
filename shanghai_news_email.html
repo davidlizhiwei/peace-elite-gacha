@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上海新闻日报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            border-radius: 15px 15px 0 0;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: shimmer 3s infinite;
+        }
+        @keyframes shimmer {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(180deg); }
+        }
+        .header h1 {
+            color: #ffffff;
+            font-size: 28px;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header .date {
+            color: #a8d8ea;
+            font-size: 16px;
+            position: relative;
+            z-index: 1;
+        }
+        .header .icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .content {
+            background: #ffffff;
+            border-radius: 0 0 15px 15px;
+            padding: 30px;
+        }
+        .intro {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px dashed #e0e0e0;
+            margin-bottom: 25px;
+        }
+        .intro p {
+            color: #555;
+            font-size: 15px;
+        }
+        .news-item {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 5px solid;
+            transition: transform 0.3s ease;
+        }
+        .news-item:hover {
+            transform: translateX(5px);
+        }
+        .news-item.tech {
+            border-left-color: #667eea;
+        }
+        .news-item.tourism {
+            border-left-color: #f093fb;
+        }
+        .news-item.culture {
+            border-left-color: #4facfe;
+        }
+        .news-number {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .news-item.tech .news-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .news-item.tourism .news-number {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .news-item.culture .news-number {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        .news-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+        .news-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        .news-meta span {
+            display: flex;
+            align-items: center;
+            color: #666;
+        }
+        .news-meta span::before {
+            margin-right: 5px;
+        }
+        .meta-source::before { content: "📰"; }
+        .meta-time::before { content: "🕐"; }
+        .meta-link::before { content: "🔗"; }
+        .news-summary {
+            color: #444;
+            font-size: 15px;
+            line-height: 1.8;
+            background: rgba(255,255,255,0.7);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+        }
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 50px;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 12px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: 3px solid #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .timeline-text {
+            color: #666;
+            font-size: 14px;
+        }
+        .footer {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            margin-top: 20px;
+            color: #a8d8ea;
+        }
+        .footer p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .footer .disclaimer {
+            font-size: 12px;
+            color: #6c7a89;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #2a3f5f;
+        }
+        .weather-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%);
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .highlight {
+            color: #667eea;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <span class="icon">📰🏙️</span>
+            <h1>上海新闻日报</h1>
+            <p class="date">2026 年 2 月 20 日 星期五</p>
+            <div class="weather-badge">🌤️ 上海 今日 7-19°C 晴到多云</div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Intro -->
+            <div class="intro">
+                <p>尊敬的读者，您好！</p>
+                <p>以下是过去 24 小时内上海地区最重要的三条新闻资讯，涵盖<span class="highlight">科技创新</span>、<span class="highlight">文旅经济</span>和<span class="highlight">民生服务</span>领域。</p>
+            </div>
+
+            <!-- News Item 1 - Tech -->
+            <div class="news-item tech">
+                <div class="news-title">
+                    <span class="news-number">1</span>
+                    🔬 我国科学家在光通信及 6G 领域取得突破性进展
+                </div>
+                <div class="news-meta">
+                    <span class="meta-source">来源：21 经济网 / 新华网</span>
+                    <span class="meta-time">发布时间：2 月 19 日（21 小时前）</span>
+                </div>
+                <div class="news-summary">
+                    <strong>【核心突破】</strong>我国科学家近日在光通信和 6G 领域取得重大突破，在国际上<span class="highlight">率先实现光纤通信和无线通信系统间的跨网络融合</span>。自主研发的"光纤—无线一体化融合通信系统"数据传输速率刷新世界纪录，为未来 6G 网络建设奠定重要技术基础。这一成果标志着我国在下一代通信技术领域已跻身全球领先地位。
+                </div>
+                <div class="news-meta" style="margin-top: 12px;">
+                    <span class="meta-link">原文链接：<a href="https://www.21jingji.com/article/20260219/herald/2b4b5a1eb007174a5dfe8a8eb4131b65.html" style="color: #667eea;">查看详情</a></span>
+                </div>
+            </div>
+
+            <!-- News Item 2 - Tourism -->
+            <div class="news-item tourism">
+                <div class="news-title">
+                    <span class="news-number">2</span>
+                    🎉 春节假期前五日上海接待游客近 1257 万人次
+                </div>
+                <div class="news-meta">
+                    <span class="meta-source">来源：澎湃新闻 / 财联社</span>
+                    <span class="meta-time">发布时间：2 月 19 日（20 小时前）</span>
+                </div>
+                <div class="news-summary">
+                    <strong>【文旅市场火爆】</strong>上海市文化和旅游局 2 月 19 日透露，春节假日第五天，上海文旅市场运行平稳，未发生相关安全事件。据上海旅游大数据监测，<span class="highlight">春节假日前五天本市共接待游客 1256.86 万人次，同比增长 5.32%</span>。豫园商城灯彩艺术节、长宁区 River Walk 老上海体验等特色活动备受游客青睐，各大商圈消费持续升温。
+                </div>
+                <div class="news-meta" style="margin-top: 12px;">
+                    <span class="meta-link">原文链接：<a href="https://www.thepaper.cn/newsDetail_forward_32633115" style="color: #f5576c;">查看详情</a></span>
+                </div>
+            </div>
+
+            <!-- News Item 3 - Culture -->
+            <div class="news-item culture">
+                <div class="news-title">
+                    <span class="news-number">3</span>
+                    🏮 新春沪上年味浓 上海各区推出多彩春节活动
+                </div>
+                <div class="news-meta">
+                    <span class="meta-source">来源：腾讯新闻</span>
+                    <span class="meta-time">发布时间：2 月 20 日（9 小时前）</span>
+                </div>
+                <div class="news-summary">
+                    <strong>【民生服务】</strong>马年春节期间，上海各区推出丰富多彩的庆祝活动。<span class="highlight">豫园商城举办灯彩艺术节</span>，展现传统非遗文化魅力；<span class="highlight">长宁区开启 River Walk 城市漫步</span>，让市民体验老上海味道；各大商圈推出新春促销活动，营造浓厚节日氛围。上海科技馆于正月初一启动试运行，"材料魔方"等互动展项吸引众多家庭前来体验。
+                </div>
+                <div class="news-meta" style="margin-top: 12px;">
+                    <span class="meta-link">原文链接：<a href="https://news.qq.com/rain/a/20260220A01MLD00" style="color: #4facfe;">查看详情</a></span>
+                </div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-text">🕐 <strong>2 月 19 日</strong> - 光通信 6G 技术突破、春节旅游数据发布</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-text">🕐 <strong>2 月 20 日</strong> - 新春文化活动持续进行，科技馆试运行</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>📧 上海新闻日报 | 每日精选资讯</p>
+            <p>让信息更有价值，让阅读更有温度</p>
+            <p class="disclaimer">
+                免责声明：本邮件内容均来自公开渠道，仅供参考。如有侵权或信息不准确，请联系删除。
+            </p>
+        </div>
+    </div>
+</body>
+</html>

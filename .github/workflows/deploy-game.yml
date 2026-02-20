@@ -1,0 +1,44 @@
+# GitHub Actions - 自动部署游戏到 GitHub Pages
+name: Deploy Game to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '*/index.html'
+      - '*/assets/**'
+      - '*/static/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find changed game folders
+        id: changes
+        run: |
+          # 获取变更的文件路径
+          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep -E '^[a-z0-9-]+/(index\.html|assets/|static/)' | cut -d'/' -f1 | sort -u | tr '\n' ' ')
+          echo "changed_folders=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Changed folders: $CHANGED"
+
+      - name: Deploy to GitHub Pages
+        if: steps.changes.outputs.changed_folders != ''
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+          force_orphan: false
+          commit_message: "deploy: auto deploy games - ${{ github.sha }}"
+
+      - name: Output result
+        if: steps.changes.outputs.changed_folders != ''
+        run: |
+          echo "✅ 部署完成！"
+          echo "📍 访问地址：https://davidlizhiwei.github.io/memory-game/"

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8F9FA;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: #1C3D6E;
+  padding: 12pt 40pt;
+}
+h2 {
+  color: white;
+  font-size: 18pt;
+  margin: 0;
+}
+.content {
+  padding: 8pt 35pt 5pt 35pt;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+  align-items: center;
+}
+.box {
+  padding: 6pt 18pt;
+  border-radius: 6pt;
+  text-align: center;
+  width: 70%;
+}
+.box-top {
+  background: #1C3D6E;
+  color: white;
+}
+.box-mid {
+  background: #00A8B5;
+  color: white;
+}
+.box-low {
+  background: white;
+  border-left: 4pt solid #00A8B5;
+  text-align: left;
+}
+.box-low2 {
+  background: #FFF9E6;
+  border-left: 4pt solid #F5A623;
+  text-align: left;
+}
+.title {
+  font-size: 11pt;
+  font-weight: bold;
+  margin: 0 0 2pt 0;
+}
+.desc {
+  font-size: 9pt;
+  margin: 0;
+  opacity: 0.9;
+}
+.box-low .desc, .box-low2 .desc {
+  color: #555;
+  opacity: 1;
+}
+.arrow {
+  font-size: 12pt;
+  color: #1C3D6E;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h2>03 AI 治理架构 - 从混乱到有序</h2>
+</div>
+<div class="content">
+<div class="box box-top">
+<p class="title">一把手挂帅 - 管理委员会</p>
+<p class="desc">CEO 和高管团队高度重视，顶层领导</p>
+</div>
+<p class="arrow">↓</p>
+<div class="box box-mid">
+<p class="title">AI 领导委员会</p>
+<p class="desc">跨部门组成，审批项目方向和 ROI 回报</p>
+</div>
+<p class="arrow">↓</p>
+<div class="box box-low">
+<p class="title">AI 卓越中心（IT 为核心）</p>
+<p class="desc">负责交付、项目管理、运维</p>
+</div>
+<p class="arrow">↓</p>
+<div class="box box-low2">
+<p class="title">AI 论坛</p>
+<p class="desc">案例交流中心，分享最佳实践</p>
+</div>
+</div>
+</body>
+</html>

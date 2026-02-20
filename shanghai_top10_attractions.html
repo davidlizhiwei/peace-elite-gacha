@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上海 Top 10 旅游景点</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 30px;
+        }
+        .attraction {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 5px solid;
+            transition: transform 0.3s ease;
+        }
+        .attraction:hover {
+            transform: translateY(-5px);
+        }
+        .attraction-1 { border-color: #e74c3c; }
+        .attraction-2 { border-color: #3498db; }
+        .attraction-3 { border-color: #2ecc71; }
+        .attraction-4 { border-color: #f39c12; }
+        .attraction-5 { border-color: #9b59b6; }
+        .attraction-6 { border-color: #1abc9c; }
+        .attraction-7 { border-color: #e91e63; }
+        .attraction-8 { border-color: #00bcd4; }
+        .attraction-9 { border-color: #ff5722; }
+        .attraction-10 { border-color: #673ab7; }
+
+        .rank {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .attraction-1 .rank { background: #e74c3c; }
+        .attraction-2 .rank { background: #3498db; }
+        .attraction-3 .rank { background: #2ecc71; }
+        .attraction-4 .rank { background: #f39c12; }
+        .attraction-5 .rank { background: #9b59b6; }
+        .attraction-6 .rank { background: #1abc9c; }
+        .attraction-7 .rank { background: #e91e63; }
+        .attraction-8 .rank { background: #00bcd4; }
+        .attraction-9 .rank { background: #ff5722; }
+        .attraction-10 .rank { background: #673ab7; }
+
+        .attraction h2 {
+            font-size: 22px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .attraction .location {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .attraction .location::before {
+            content: "📍 ";
+        }
+        .attraction p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag {
+            background: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #666;
+            border: 1px solid #ddd;
+        }
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏙️ 上海 Top 10 旅游景点</h1>
+            <p>探索魔都的经典与魅力</p>
+        </div>
+
+        <div class="content">
+            <!-- 1. 外滩 -->
+            <div class="attraction attraction-1">
+                <span class="rank">1</span>
+                <h2>外滩 The Bund</h2>
+                <div class="location">黄浦区中山东一路</div>
+                <p>上海最具标志性的景点，被誉为"万国建筑博览群"。沿黄浦江畔绵延 1.5 公里，52 栋风格各异的历史建筑见证了上海的百年沧桑。夜晚灯光璀璨，与陆家嘴现代天际线交相辉映，是欣赏上海夜景的绝佳地点。</p>
+                <div class="tags">
+                    <span class="tag">🌃 夜景</span>
+                    <span class="tag">📸 拍照</span>
+                    <span class="tag">🏛️ 历史建筑</span>
+                    <span class="tag">🚶 漫步</span>
+                </div>
+            </div>
+
+            <!-- 2. 豫园 -->
+            <div class="attraction attraction-2">
+                <span class="rank">2</span>
+                <h2>豫园 Yu Garden</h2>
+                <div class="location">黄浦区安仁街 218 号</div>
+                <p>明代古典园林，始建于 1559 年，距今已有 400 多年历史。园内亭台楼阁、假山水榭错落有致，体现了江南园林的精髓。毗邻的城隍庙和豫园商城是品尝上海特色小吃和购买手信的好去处。</p>
+                <div class="tags">
+                    <span class="tag">🏯 古典园林</span>
+                    <span class="tag">🍜 美食</span>
+                    <span class="tag">🛍️ 购物</span>
+                    <span class="tag">📿 文化</span>
+                </div>
+            </div>
+
+            <!-- 3. 东方明珠 -->
+            <div class="attraction attraction-3">
+                <span class="rank">3</span>
+                <h2>东方明珠 Oriental Pearl Tower</h2>
+                <div class="location">浦东新区陆家嘴世纪大道 1 号</div>
+                <p>上海的地标性建筑，高 468 米，曾是亚洲第一高楼。塔内设有观光层、旋转餐厅和上海城市历史发展陈列馆。登上 263 米的主观光层，可将整个上海市区尽收眼底。夜晚灯光变幻，美轮美奂。</p>
+                <div class="tags">
+                    <span class="tag">🗼 地标</span>
+                    <span class="tag">🌆 观景台</span>
+                    <span class="tag">🍽️ 旋转餐厅</span>
+                    <span class="tag">🌃 夜景</span>
+                </div>
+            </div>
+
+            <!-- 4. 上海迪士尼乐园 -->
+            <div class="attraction attraction-4">
+                <span class="rank">4</span>
+                <h2>上海迪士尼乐园 Shanghai Disney Resort</h2>
+                <div class="location">浦东新区川沙镇黄赵路 310 号</div>
+                <p>中国大陆首座迪士尼主题乐园，拥有全球最大的迪士尼城堡和首个以海盗为主题的园区"宝藏湾"。九大主题园区、数十个游乐项目和精彩演出，适合全家游玩。晚上的烟花秀不可错过。</p>
+                <div class="tags">
+                    <span class="tag">🎢 主题乐园</span>
+                    <span class="tag">👨‍👩‍👧‍👦 亲子</span>
+                    <span class="tag">🎆 烟花秀</span>
+                    <span class="tag">🏰 城堡</span>
+                </div>
+            </div>
+
+            <!-- 5. 南京路步行街 -->
+            <div class="attraction attraction-5">
+                <span class="rank">5</span>
+                <h2>南京路步行街 Nanjing Road</h2>
+                <div class="location">黄浦区南京东路</div>
+                <p>"中华商业第一街"，东起外滩西至人民广场，全长 5.5 公里。百年老街汇聚了众多老字号商店、百货公司和新潮品牌。夜晚霓虹闪烁，人流如织，是体验上海商业繁华的最佳地点。</p>
+                <div class="tags">
+                    <span class="tag">🛍️ 购物</span>
+                    <span class="tag">🍴 美食</span>
+                    <span class="tag">🌃 夜景</span>
+                    <span class="tag">🚶 步行街</span>
+                </div>
+            </div>
+
+            <!-- 6. 田子坊 -->
+            <div class="attraction attraction-6">
+                <span class="rank">6</span>
+                <h2>田子坊 Tianzifang</h2>
+                <div class="location">黄浦区泰康路 210 弄</div>
+                <p>由老上海弄堂改造而成的创意艺术区，保留了石库门建筑风格。巷弄里遍布特色小店、艺术工作室、咖啡馆和餐厅，充满文艺气息。是体验上海小资情调和创意文化的理想之地。</p>
+                <div class="tags">
+                    <span class="tag">🎨 艺术</span>
+                    <span class="tag">☕ 咖啡</span>
+                    <span class="tag">🛍️ 文创</span>
+                    <span class="tag">📸 拍照</span>
+                </div>
+            </div>
+
+            <!-- 7. 上海博物馆 -->
+            <div class="attraction attraction-7">
+                <span class="rank">7</span>
+                <h2>上海博物馆 Shanghai Museum</h2>
+                <div class="location">黄浦区人民大道 201 号</div>
+                <p>中国顶级博物馆之一，馆藏 14 万件文物，以青铜器、陶瓷器、书法绘画最为著名。建筑造型"天圆地方"，寓意深远。常设展览免费开放，是了解中国古代艺术和历史的绝佳场所。</p>
+                <div class="tags">
+                    <span class="tag">🏛️ 博物馆</span>
+                    <span class="tag">🖼️ 艺术</span>
+                    <span class="tag">📚 历史</span>
+                    <span class="tag">🆓 免费</span>
+                </div>
+            </div>
+
+            <!-- 8. 陆家嘴金融区 -->
+            <div class="attraction attraction-8">
+                <span class="rank">8</span>
+                <h2>陆家嘴金融区 Lujiazui Financial District</h2>
+                <div class="location">浦东新区陆家嘴</div>
+                <p>中国最具影响力的金融中心之一，汇聚了上海中心大厦、金茂大厦、环球金融中心等摩天大楼。现代化的城市天际线令人震撼，滨江大道是欣赏外滩夜景的绝佳位置。</p>
+                <div class="tags">
+                    <span class="tag">🏢 摩天大楼</span>
+                    <span class="tag">🌆 天际线</span>
+                    <span class="tag">🚶 滨江大道</span>
+                    <span class="tag">📸 拍照</span>
+                </div>
+            </div>
+
+            <!-- 9. 朱家角古镇 -->
+            <div class="attraction attraction-9">
+                <span class="rank">9</span>
+                <h2>朱家角古镇 Zhujiajiao Water Town</h2>
+                <div class="location">青浦区朱家角镇</div>
+                <p>上海保存最完整的江南水乡古镇，距今已有 1700 多年历史。小桥流水、古街老宅、乌篷船构成了一幅典型的江南水乡画卷。放生桥、课植园、大清邮局等景点值得一游。</p>
+                <div class="tags">
+                    <span class="tag">🏘️ 古镇</span>
+                    <span class="tag">🛶 水乡</span>
+                    <span class="tag">🍜 美食</span>
+                    <span class="tag">📸 拍照</span>
+                </div>
+            </div>
+
+            <!-- 10. 静安寺 -->
+            <div class="attraction attraction-10">
+                <span class="rank">10</span>
+                <h2>静安寺 Jing'an Temple</h2>
+                <div class="location">静安区南京西路 1686 号</div>
+                <p>上海最古老的佛教寺庙，始建于三国时期，距今已有 1700 多年历史。金碧辉煌的建筑群矗立于繁华都市之中，形成独特对比。寺内供奉的银佛和木雕佛像极具艺术价值。</p>
+                <div class="tags">
+                    <span class="tag">🛕 寺庙</span>
+                    <span class="tag">🙏 佛教</span>
+                    <span class="tag">🏛️ 历史</span>
+                    <span class="tag">📸 建筑</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>✨ 祝你旅途愉快！探索魔都，发现更多精彩 ✨</p>
+        </div>
+    </div>
+</body>
+</html>

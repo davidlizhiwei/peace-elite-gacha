@@ -1,0 +1,35 @@
+2026/02/20-11:32:14.522 116f3e Creating DB /Users/davidli/lobsterai/project/.cowork-temp/chrome-cdp-1771558333206/Default/Local Storage/leveldb since it was missing.
+2026/02/20-11:32:14.543 116f3e Reusing MANIFEST /Users/davidli/lobsterai/project/.cowork-temp/chrome-cdp-1771558333206/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/20-11:35:16.652 116f42 Level-0 table #5: started
+2026/02/20-11:35:16.662 116f42 Level-0 table #5: 93483 bytes OK
+2026/02/20-11:35:16.672 116f42 Delete type=0 #3
+2026/02/20-11:37:53.051 116f42 Level-0 table #7: started
+2026/02/20-11:37:53.055 116f42 Level-0 table #7: 114200 bytes OK
+2026/02/20-11:37:53.060 116f42 Delete type=0 #4
+2026/02/20-11:42:12.723 116f42 Level-0 table #9: started
+2026/02/20-11:42:12.728 116f42 Level-0 table #9: 71124 bytes OK
+2026/02/20-11:42:12.737 116f42 Delete type=0 #6
+2026/02/20-11:45:22.566 116f42 Level-0 table #11: started
+2026/02/20-11:45:22.569 116f42 Level-0 table #11: 75557 bytes OK
+2026/02/20-11:45:22.572 116f42 Delete type=0 #8
+2026/02/20-11:47:16.507 116f42 Level-0 table #13: started
+2026/02/20-11:47:16.513 116f42 Level-0 table #13: 109998 bytes OK
+2026/02/20-11:47:16.518 116f42 Delete type=0 #10
+2026/02/20-11:47:47.043 116f42 Level-0 table #15: started
+2026/02/20-11:47:47.047 116f42 Level-0 table #15: 95698 bytes OK
+2026/02/20-11:47:47.055 116f42 Delete type=0 #12
+2026/02/20-11:47:47.055 116f42 Compacting 4@0 + 1@1 files
+2026/02/20-11:47:47.060 116f42 Generated table #16@0: 12 keys, 96099 bytes
+2026/02/20-11:47:47.060 116f42 Compacted 4@0 + 1@1 files => 96099 bytes
+2026/02/20-11:47:47.062 116f42 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/20-11:47:47.062 116f42 Delete type=2 #15
+2026/02/20-11:47:47.062 116f42 Delete type=2 #7
+2026/02/20-11:47:47.062 116f42 Delete type=2 #13
+2026/02/20-11:47:47.062 116f42 Delete type=2 #11
+2026/02/20-11:47:47.062 116f42 Delete type=2 #9
+2026/02/20-12:24:22.366 116f42 Level-0 table #18: started
+2026/02/20-12:24:22.372 116f42 Level-0 table #18: 70402 bytes OK
+2026/02/20-12:24:22.376 116f42 Delete type=0 #14
+2026/02/20-12:24:38.334 116f42 Level-0 table #20: started
+2026/02/20-12:24:38.337 116f42 Level-0 table #20: 67976 bytes OK
+2026/02/20-12:24:38.339 116f42 Delete type=0 #17

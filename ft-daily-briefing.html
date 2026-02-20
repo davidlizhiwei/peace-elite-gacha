@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FT 财经早报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 35px 30px;
+            text-align: center;
+        }
+
+        .header-logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .header-subtitle {
+            font-size: 14px;
+            color: #a8a8b3;
+            font-weight: 300;
+        }
+
+        .header-date {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 13px;
+            color: #6c7a89;
+        }
+
+        /* Content */
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e94560;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .news-item {
+            background: #f8f9fa;
+            border-left: 4px solid #e94560;
+            padding: 18px 20px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .news-item:hover {
+            background: #f0f1f3;
+        }
+
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .news-content {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .news-link {
+            display: inline-block;
+            font-size: 13px;
+            color: #e94560;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .news-link:hover {
+            color: #c0354a;
+            text-decoration: underline;
+        }
+
+        .news-source {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Market Data Table */
+        .market-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .market-table th {
+            background: #1a1a2e;
+            color: #ffffff;
+            padding: 12px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .market-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 13px;
+        }
+
+        .market-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .market-table tr:hover {
+            background: #f0f0f0;
+        }
+
+        .up { color: #27ae60; font-weight: 500; }
+        .down { color: #e94560; font-weight: 500; }
+
+        /* Insight Box */
+        .insight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .insight-box-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .insight-box-content {
+            font-size: 13px;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+
+        /* Quick News List */
+        .quick-news {
+            list-style: none;
+            padding: 0;
+        }
+
+        .quick-news li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e8e8e8;
+            font-size: 14px;
+        }
+
+        .quick-news li:last-child {
+            border-bottom: none;
+        }
+
+        .quick-news a {
+            color: #1a1a2e;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .quick-news a:hover {
+            color: #e94560;
+        }
+
+        .quick-news .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            background: #e94560;
+            color: #fff;
+            border-radius: 3px;
+            font-size: 11px;
+            margin-right: 8px;
+            font-weight: 500;
+        }
+
+        .quick-news .tag.tech { background: #667eea; }
+        .quick-news .tag.energy { background: #f39c12; }
+        .quick-news .tag.markets { background: #27ae60; }
+
+        /* Footer */
+        .footer {
+            background: #1a1a2e;
+            color: #a8a8b3;
+            padding: 25px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .footer-text {
+            margin-bottom: 10px;
+        }
+
+        .footer-links {
+            margin-top: 15px;
+        }
+
+        .footer-links a {
+            color: #6c7a89;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Responsive */
+        @media only screen and (max-width: 600px) {
+            .header {
+                padding: 25px 20px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .news-item {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-logo">📊 FT 财经早报</div>
+            <div class="header-subtitle">Financial Times Daily Briefing</div>
+            <div class="header-date">
+                📅 2026 年 2 月 20 日 星期五 | 农历正月廿三
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Top Stories -->
+            <div class="section">
+                <div class="section-title">
+                    🔴 头条聚焦
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">🚗 电动车热潮退去，车企遭受 650 亿美元损失</div>
+                    <div class="news-content">
+                        电动汽车市场狂热消退，传统汽车制造商重新评估美国战略，转向石油和混合动力车型。主要车企股价大幅波动，投资者对 EV 前景趋于谨慎。分析师指出，EV 基础设施不足和消费者需求放缓是主要原因。
+                    </div>
+                    <a href="https://www.ft.com/" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：Financial Times</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">💰 特朗普提名凯文•沃什出任美联储主席</div>
+                    <div class="news-content">
+                        总统宣布提名前美联储理事为接替杰罗姆•鲍威尔的候选人。消息公布后，美元创下自 2025 年 5 月以来的最大涨幅，市场预计新任命将显著影响未来货币政策走向。
+                    </div>
+                    <a href="https://www.ftchinese.com/tag/%E6%96%B0%E9%97%BB" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT 中文网</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">📈 华尔街银行：美股有望在 2026 年实现两位数涨幅</div>
+                    <div class="news-content">
+                        尽管投资者近期因大型科技公司的巨额支出计划以及人工智能领域的潜在泡沫而感到不安，美国股市在 2026 年仍将再度录得两位数涨幅。分析师建议关注传统价值股。
+                    </div>
+                    <a href="https://www.ftchinese.com/interactive/242242" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT 中文网</div>
+                </div>
+            </div>
+
+            <!-- Market Overview -->
+            <div class="section">
+                <div class="section-title">
+                    📊 市场数据
+                </div>
+
+                <table class="market-table">
+                    <thead>
+                        <tr>
+                            <th>指标</th>
+                            <th>最新</th>
+                            <th>变动</th>
+                            <th>备注</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>标普 500</td>
+                            <td>5,842</td>
+                            <td class="down">▼ -0.8%</td>
+                            <td>震荡调整</td>
+                        </tr>
+                        <tr>
+                            <td>纳斯达克</td>
+                            <td>18,234</td>
+                            <td class="down">▼ -1.2%</td>
+                            <td>AI 股回调</td>
+                        </tr>
+                        <tr>
+                            <td>道琼斯</td>
+                            <td>42,156</td>
+                            <td class="up">▲ +0.3%</td>
+                            <td>传统板块走强</td>
+                        </tr>
+                        <tr>
+                            <td>美元指数</td>
+                            <td>104.8</td>
+                            <td class="up">▲ +1.5%</td>
+                            <td>创 9 个月新高</td>
+                        </tr>
+                        <tr>
+                            <td>布伦特原油</td>
+                            <td>$82.45</td>
+                            <td class="up">▲ +0.6%</td>
+                            <td>/桶</td>
+                        </tr>
+                        <tr>
+                            <td>黄金现货</td>
+                            <td>$2,034</td>
+                            <td class="up">▲ +0.4%</td>
+                            <td>/盎司</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Global Economy -->
+            <div class="section">
+                <div class="section-title">
+                    🌍 全球经济
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">🇺🇸 美联储 2026 年利率路径受关注</div>
+                    <div class="news-content">
+                        继 2025 年 9 月、10 月和 12 月连续降息后，市场密切关注 2026 年美联储利率决议。芝加哥商品交易所 FedWatch 工具显示，固定收益市场预期 2026 年将迎来新主席，FOMC 将举行八次预定会议。
+                    </div>
+                    <a href="https://www.ftchinese.com/interactive/242242" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT 中文网</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">🇪🇺 欧盟拟大力发展北海海上风电实现能源独立</div>
+                    <div class="news-content">
+                        欧盟和英国计划在北海大力发展海上风电。欧盟能源专员暗示，欧洲不希望在摆脱对俄罗斯天然气的依赖后，转而依赖美国液化天然气。2025 年美国 LNG 出口达创纪录 1.11 亿吨。
+                    </div>
+                    <a href="https://www.ftchinese.com/story/001108813" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT 中文网</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">🛢️ IEA 与 OPEC 对 2026 年石油需求预测出现分歧</div>
+                    <div class="news-content">
+                        国际能源署 (IEA)、欧佩克 (Opec) 以及美国能源信息署 (EIA) 对 2026 年石油需求的预测出现分歧，差距达 200 万桶/日。非欧佩克产油国供应量预计将继续增长。
+                    </div>
+                    <a href="https://www1.ftchinese.com/interactive/239518?exclusive" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT 中文网</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">🌏 东南亚经受住特朗普关税攻势冲击</div>
+                    <div class="news-content">
+                        贸易数据显示，得益于美国对科技产品的需求、低廉的制造成本以及来自中国的货物转口，东南亚在 2026 年初经受住了特朗普关税政策的冲击。
+                    </div>
+                    <a href="https://www.ftchinese.com/interactive/245398" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT 中文网</div>
+                </div>
+            </div>
+
+            <!-- Business & Tech -->
+            <div class="section">
+                <div class="section-title">
+                    💼 商业科技
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">🎓 中欧 MBA 跃居全球第八，连续十年亚洲第一</div>
+                    <div class="news-content">
+                        英国《金融时报》发布 2026 年度全日制 MBA 课程全球百强排行榜。中欧国际工商学院 MBA 课程全球排名跃升至第八位，连续十年蝉联亚洲第一。
+                    </div>
+                    <a href="https://finance.sina.com.cn/jjxw/2026-02-16/doc-inhmykns0346876.shtml" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT/新浪财经</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-title">🤖 Google 与 FT 达成 AI 内容合作协议</div>
+                    <div class="news-content">
+                        Google 承诺推出"更专注的交易"，FT 加入 AI 试点项目。新闻出版商与科技巨头就 AI 内容使用达成新合作协议，为行业树立新标杆。
+                    </div>
+                    <a href="https://pressgazette.co.uk/platforms/google-search-features-deals-ai-financial-times/" class="news-link" target="_blank">阅读全文 →</a>
+                    <div class="news-source">来源：FT/Press Gazette</div>
+                </div>
+            </div>
+
+            <!-- Quick News -->
+            <div class="section">
+                <div class="section-title">
+                    ⚡ 快讯精选
+                </div>
+
+                <ul class="quick-news">
+                    <li>
+                        <span class="tag">宏观</span>
+                        <a href="https://www.ftchinese.com/" target="_blank">IMF 上调 2026 年全球增长预期至 3.3%，科技投资成为主要驱动力</a>
+                    </li>
+                    <li>
+                        <span class="tag tech">科技</span>
+                        <a href="https://www.ftchinese.com/" target="_blank">人工智能加剧劳动力市场变革，高盛预测 2026 年降息时间表</a>
+                    </li>
+                    <li>
+                        <span class="tag energy">能源</span>
+                        <a href="https://www.ftchinese.com/interactive/193363" target="_blank">欧洲天然气储存量降至三年低点，供应挑战加剧</a>
+                    </li>
+                    <li>
+                        <span class="tag markets">市场</span>
+                        <a href="https://www.ftchinese.com/" target="_blank">投资者不愿"逢低买入"，市场波动性预期上升</a>
+                    </li>
+                    <li>
+                        <span class="tag">贸易</span>
+                        <a href="https://www.ftchinese.com/story/001105901" target="_blank">关税是特朗普重塑世界贸易的手段？分析称目标远大</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Today's Focus -->
+            <div class="section">
+                <div class="section-title">
+                    📅 今日关注
+                </div>
+
+                <table class="market-table">
+                    <thead>
+                        <tr>
+                            <th>时间 (北京时间)</th>
+                            <th>事件</th>
+                            <th>重要性</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>20:30</td>
+                            <td>美国初请失业金人数</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>21:00</td>
+                            <td>欧元区 CPI 年率</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>22:30</td>
+                            <td>美国 EIA 原油库存</td>
+                            <td>⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>待定</td>
+                            <td>日本央行会议纪要</td>
+                            <td>⭐⭐</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Insight -->
+            <div class="insight-box">
+                <div class="insight-box-title">💡 早间提示</div>
+                <div class="insight-box-content">
+                    市场波动加剧，建议关注传统能源板块回调机会。美联储政策预期不明朗，投资者宜保持谨慎，分散配置防御性资产。东南亚市场在关税压力下展现韧性，可关注相关投资机会。
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-text">
+                <strong>FT 财经早报</strong> | 专业 • 深度 • 全球视野
+            </div>
+            <div class="footer-text">
+                本简报内容来源于 Financial Times，仅供参考，不构成投资建议
+            </div>
+            <div class="footer-links">
+                <a href="https://www.ft.com/" target="_blank">FT 官网</a> |
+                <a href="https://www.ftchinese.com/" target="_blank">FT 中文网</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

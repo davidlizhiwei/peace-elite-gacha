@@ -42,9 +42,11 @@ fi
 GAME_NAME=$(basename "$GAME_DIR")
 mkdir -p "$GAME_NAME"
 
-# 复制游戏文件
+# 清理并复制游戏文件
 echo "📦 复制游戏文件..."
-cp -r "$GAME_DIR"/* "$GAME_NAME/"
+rm -rf "$GAME_NAME"
+mkdir -p "$GAME_NAME"
+cp -rf "$GAME_DIR"/* "$GAME_NAME/"
 
 # 提交并推送
 git add "$GAME_NAME/"

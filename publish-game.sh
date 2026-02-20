@@ -5,6 +5,7 @@
 set -e
 
 GAME_DIR=$1
+PROJECT_ROOT=$(pwd)
 
 if [ -z "$GAME_DIR" ]; then
     echo "❌ 请指定游戏目录"
@@ -13,40 +14,46 @@ if [ -z "$GAME_DIR" ]; then
     exit 1
 fi
 
-if [ ! -d "$GAME_DIR" ]; then
+if [ ! -d "$PROJECT_ROOT/$GAME_DIR" ]; then
     echo "❌ 目录不存在：$GAME_DIR"
     exit 1
 fi
 
-if [ ! -f "$GAME_DIR/index.html" ]; then
+if [ ! -f "$PROJECT_ROOT/$GAME_DIR/index.html" ]; then
     echo "❌ 未找到 index.html"
     exit 1
 fi
 
-echo "🚀 开始部署 $GAME_DIR 到 GitHub Pages..."
+GAME_NAME=$(basename "$GAME_DIR")
+echo "🚀 开始部署 $GAME_NAME 到 GitHub Pages..."
+
+# 创建临时目录
+TEMP_DIR="/tmp/gh-pages-$$"
+rm -rf "$TEMP_DIR"
+mkdir -p "$TEMP_DIR"
+
+# 复制游戏文件到临时目录
+echo "📦 准备游戏文件..."
+cp -r "$PROJECT_ROOT/$GAME_DIR"/* "$TEMP_DIR/"
 
 # 保存当前分支
 CURRENT_BRANCH=$(git branch --show-current)
 
-# 切换到 gh-pages 分支（如果不存在则创建）
-if git rev-parse --verify gh-pages >/dev/null 2>&1; then
+# 切换到 gh-pages 分支
+git fetch origin gh-pages 2>/dev/null || true
+if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
     git checkout gh-pages
 else
     git checkout --orphan gh-pages
     git reset --hard
-    git commit --allow-empty -m "init: 初始化 gh-pages 分支"
-    git push origin gh-pages
 fi
 
-# 创建游戏目录（如果不存在）
-GAME_NAME=$(basename "$GAME_DIR")
-mkdir -p "$GAME_NAME"
-
-# 清理并复制游戏文件
-echo "📦 复制游戏文件..."
+# 创建游戏子目录
 rm -rf "$GAME_NAME"
 mkdir -p "$GAME_NAME"
-cp -rf "$GAME_DIR"/* "$GAME_NAME/"
+
+# 复制文件
+cp -r "$TEMP_DIR"/* "$GAME_NAME/"
 
 # 提交并推送
 git add "$GAME_NAME/"
@@ -58,7 +65,10 @@ else
     echo "✅ 推送完成！"
 fi
 
-# 切回原分支
+# 清理
+rm -rf "$TEMP_DIR"
+
+# 切回 main 分支
 git checkout "$CURRENT_BRANCH"
 
 echo ""

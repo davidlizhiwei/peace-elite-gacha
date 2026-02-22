@@ -1,0 +1,52 @@
+# 临时文件和缓存
+.cowork-temp/
+.DS_Store
+*.tmp
+*.log
+tmp/
+temp/
+
+# 测试生成的图片文件
+generated_*.png
+generated_*.jpg
+cute_*.png
+cute_*.jpg
+test_*.png
+test_*.jpg
+image_20*.png
+image_20*.jpg
+peacock.png
+qwen_*.png
+
+# 邮件测试文件
+*_email.html
+boston-tour-email.html
+global-stocks-email.html
+shanghai_news_email.html
+
+# 搜索查询临时文件
+search_queries.txt
+search_query.txt
+
+# 截图文件
+*_test.png
+stock-app-test.png
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.env
+*.ipynb_checkpoints
+
+# 其他
+*.bak
+*.swp
+*~
+Thumbs.db

@@ -1,0 +1,23 @@
+{
+  "provider": "CoinGecko",
+  "plan": "Demo (Free)",
+  "baseUrl": "https://api.coingecko.com/api/v3",
+  "apiKey": "",
+  "limits": {
+    "callsPerMonth": 10000,
+    "callsPerMinute": 30,
+    "dataFreshness": "60 seconds"
+  },
+  "endpoints": {
+    "simplePrice": "/simple/price",
+    "coinsList": "/coins/list",
+    "coinsMarkets": "/coins/markets",
+    "globalMarket": "/global",
+    "exchanges": "/exchanges"
+  },
+  "usage": {
+    "description": "免费版无需 API Key，可直接调用基础端点",
+    "attribution": "使用免费数据需要在应用中显示 CoinGecko 品牌标识",
+    "upgradeUrl": "https://www.coingecko.com/en/api/pricing"
+  }
+}

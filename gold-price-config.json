@@ -1,0 +1,21 @@
+{
+  "provider": "Gold API",
+  "plan": "Free",
+  "baseUrl": "https://api.gold-api.com/price",
+  "apiKey": "",
+  "limits": {
+    "callsPerDay": "Unlimited (Fair Use)",
+    "dataFreshness": "Real-time"
+  },
+  "symbols": {
+    "XAU": "黄金 (Gold)",
+    "XAG": "白银 (Silver)",
+    "XPT": "铂金 (Platinum)",
+    "XPD": "钯金 (Palladium)"
+  },
+  "usage": {
+    "description": "免费版无需 API Key，可直接调用",
+    "priceUnit": "USD/盎司",
+    "updateFrequency": "实时"
+  }
+}

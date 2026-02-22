@@ -1,0 +1,35 @@
+{
+  "last_check_time": "2026-02-22T09:00:00+08:00",
+  "deployment_region": "中国内地",
+  "models": {
+    "qwen-plus": {
+      "name": "千问 Plus (Qwen3.5)",
+      "input_price_per_million": 0.8,
+      "output_price_per_million": 2.0,
+      "currency": "CNY",
+      "max_context_length": 1000000
+    },
+    "qwen-flash": {
+      "name": "千问 Flash",
+      "input_price_per_million": 0.15,
+      "output_price_per_million": 1.5,
+      "currency": "CNY",
+      "max_context_length": 1000000
+    },
+    "qwen-max": {
+      "name": "千问 Max",
+      "input_price_per_million": 2.5,
+      "output_price_per_million": 10.0,
+      "currency": "CNY",
+      "max_context_length": 262144
+    },
+    "qwen-coder": {
+      "name": "千问 Coder",
+      "input_price_per_million": 1.0,
+      "output_price_per_million": 4.0,
+      "currency": "CNY",
+      "max_context_length": 1000000
+    }
+  },
+  "notes": "首次记录，无历史价格对比"
+}

@@ -1,0 +1,166 @@
+{
+  "lastCheckTime": "2026-02-21T16:20:00",
+  "lastCheckResult": "使用 Serper API 搜索获取最新优惠信息",
+  "promotions": {
+    "kfc": {
+      "name": "肯德基",
+      "items": [
+        {
+          "name": "疯狂星期四 吮指原味鸡",
+          "originalPrice": 13.5,
+          "promoPrice": 7.475,
+          "description": "疯狂星期四活动，4 块原味鸡 29.9 元",
+          "channel": "肯德基 APP/小程序/门店",
+          "validUntil": "2026-03-31",
+          "note": "每周四限定，相当于 7.475 元/块，比单点优惠约 45%"
+        },
+        {
+          "name": "黄金鸡块",
+          "originalPrice": 11,
+          "promoPrice": 9.9,
+          "description": "疯狂星期四活动，9 块黄金鸡块 9.9 元",
+          "channel": "肯德基 APP/小程序/门店",
+          "validUntil": "2026-03-31",
+          "note": "每周四限定"
+        },
+        {
+          "name": "草莓年糕风味派",
+          "originalPrice": 13,
+          "promoPrice": 9.9,
+          "description": "疯狂星期四活动，3 只 9.9 元",
+          "channel": "肯德基 APP/小程序/门店",
+          "validUntil": "2026-03-31",
+          "note": "每周四限定，新品"
+        },
+        {
+          "name": "秘汁全鸡",
+          "originalPrice": 39,
+          "promoPrice": 29.9,
+          "description": "疯狂星期四活动，整鸡 29.9 元",
+          "channel": "肯德基 APP/小程序/门店",
+          "validUntil": "2026-03-31",
+          "note": "每周四限定"
+        },
+        {
+          "name": "香辣鸡腿堡",
+          "originalPrice": 20.5,
+          "promoPrice": null,
+          "description": "暂无特别优惠",
+          "channel": "肯德基 APP",
+          "validUntil": null,
+          "note": "可通过神券节等活动获取优惠券"
+        },
+        {
+          "name": "全家桶",
+          "originalPrice": 119,
+          "promoPrice": 89,
+          "description": "美团/饿了么平台优惠，含 13 件产品",
+          "channel": "美团/饿了么",
+          "validUntil": "2026-02-28",
+          "note": "0 元配送，具体以实际下单为准"
+        }
+      ],
+      "summary": "肯德基 2026 年 2 月主要优惠为疯狂星期四活动，4 块原味鸡 29.9 元（7.475 元/块）、9 块黄金鸡块 9.9 元、秘汁全鸡 29.9 元"
+    },
+    "mcdonalds": {
+      "name": "麦当劳",
+      "items": [
+        {
+          "name": "1+1 随心配",
+          "originalPrice": 26,
+          "promoPrice": 13.9,
+          "description": "红区 + 白区任选，含双层吉士汉堡/麦辣鸡腿堡等",
+          "channel": "麦当劳 APP/小程序/美团",
+          "validUntil": "2026-12-31",
+          "note": "红区可选双层吉士汉堡、麦辣鸡腿堡、贡菜卷等；白区可选小食和饮料。2025 年 12 月涨价后部分搭配需 14.9 元"
+        },
+        {
+          "name": "双层吉士汉堡",
+          "originalPrice": 13,
+          "promoPrice": null,
+          "description": "可通过 1+1 随心配获取优惠",
+          "channel": "麦当劳 APP",
+          "validUntil": null,
+          "note": "单点无特别优惠，建议通过 1+1 随心配购买更划算"
+        },
+        {
+          "name": "巨无霸",
+          "originalPrice": 24.5,
+          "promoPrice": null,
+          "description": "暂无特别优惠",
+          "channel": "麦当劳 APP",
+          "validUntil": null,
+          "note": "2025 年 12 月涨价 0.5-1 元"
+        },
+        {
+          "name": "麦辣鸡腿堡",
+          "originalPrice": 16,
+          "promoPrice": null,
+          "description": "可通过 1+1 随心配获取优惠",
+          "channel": "麦当劳 APP",
+          "validUntil": null,
+          "note": "单点无特别优惠"
+        },
+        {
+          "name": "麦乐鸡 9 块",
+          "originalPrice": 16,
+          "promoPrice": 10,
+          "description": "APP 限定优惠",
+          "channel": "麦当劳 APP",
+          "validUntil": "2026-02-28",
+          "note": "需通过麦当劳 APP 下单"
+        }
+      ],
+      "summary": "麦当劳 1+1 随心配是最具性价比的选择（13.9 元起），2025 年 12 月部分产品涨价 0.5-1 元"
+    }
+  },
+  "noteworthyDeals": [
+    {
+      "brand": "肯德基",
+      "item": "疯狂星期四 吮指原味鸡",
+      "reason": "4 块 29.9 元（7.475 元/块），比原价优惠约 45%",
+      "recommendation": "每周四可关注，是目前最划算的原味鸡优惠"
+    },
+    {
+      "brand": "肯德基",
+      "item": "黄金鸡块 9 块",
+      "reason": "9.9 元 9 块，相当于 1.1 元/块",
+      "recommendation": "每周四可购买，性价比极高"
+    },
+    {
+      "brand": "麦当劳",
+      "item": "1+1 随心配",
+      "reason": "13.9 元可得主食 + 小食/饮料，性价比高",
+      "recommendation": "日常用餐首选，但注意部分红区产品需另加 1 元"
+    }
+  ],
+  "priceChanges": [
+    {
+      "brand": "麦当劳",
+      "date": "2025-12-15",
+      "description": "部分餐品涨价 0.5-1 元，包含巨无霸、麦乐鸡、双层吉士汉堡等，1+1 随心配部分搭配涨至 14.9 元"
+    },
+    {
+      "brand": "肯德基",
+      "date": "2024-12",
+      "description": "外送产品平均涨价 0.8 元，堂食及优惠套餐价格不变"
+    }
+  ],
+  "checkHistory": [
+    {
+      "time": "2026-02-21T16:20:00",
+      "result": "使用 Serper API 搜索获取最新优惠信息，发现肯德基疯狂星期四多项优惠",
+      "newDealsFound": true
+    },
+    {
+      "time": "2026-02-21T16:00:00",
+      "result": "官网优惠信息主要在 APP/小程序内展示，官网未显示具体价格详情",
+      "newDealsFound": false
+    },
+    {
+      "time": "2026-02-21T10:00:00",
+      "result": "定期检查",
+      "newDealsFound": false
+    }
+  ]
+}

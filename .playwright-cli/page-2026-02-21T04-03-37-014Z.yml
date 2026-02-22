@@ -1,0 +1,706 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - text: "✨ New Feature:"
+        - link "Track Multiple Wallets" [ref=e6] [cursor=pointer]:
+          - /url: https://www.coingecko.com/learn/coingecko-wallet-tracking
+      - generic [ref=e7] [cursor=pointer]: 
+    - generic [ref=e8]:
+      - text: 
+      - generic [ref=e10]:
+        - text:  
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - text: "Coins:"
+            - link "18,880" [ref=e13] [cursor=pointer]:
+              - /url: /
+          - generic [ref=e14]:
+            - text: "Exchanges:"
+            - link "1,468" [ref=e15] [cursor=pointer]:
+              - /url: /en/exchanges
+          - generic [ref=e16]:
+            - text: "Market Cap:"
+            - link "$2.397T" [ref=e17] [cursor=pointer]:
+              - /url: /en/charts
+            - generic [ref=e18]:
+              - generic [ref=e19]: 
+              - text: 0.8%
+          - generic [ref=e20]:
+            - text: "24h Vol:"
+            - link "$114.102B" [ref=e21] [cursor=pointer]:
+              - /url: /en/charts
+          - generic [ref=e22]:
+            - text: "Dominance:"
+            - generic [ref=e23]:
+              - link "BTC 56.4%" [ref=e24] [cursor=pointer]:
+                - /url: /en/charts/bitcoin-dominance
+              - link "ETH 9.85%" [ref=e25] [cursor=pointer]:
+                - /url: /en/charts/bitcoin-dominance
+          - generic [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 
+            - text: "Gas: 0.035 GWEI"
+        - text: 
+        - generic [ref=e29]:
+          - button "" [ref=e32] [cursor=pointer]:
+            - generic [ref=e34]: 
+          - text: 
+          - button "" [ref=e37] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - text: 
+          - button "Login" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: Login
+          - button "Sign up" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Sign up
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - text: 
+          - link "CoinGecko" [ref=e49] [cursor=pointer]:
+            - /url: /
+            - img "CoinGecko" [ref=e50]
+          - text:  
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: Cryptocurrencies
+              - text: +
+            - generic:
+              - generic:        
+          - generic [ref=e55]:
+            - generic [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: Exchanges
+              - text: +
+            - generic:
+              - generic:     
+          - generic [ref=e58]:
+            - generic [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: NFT
+              - text: +
+            - generic:
+              - generic:    
+          - generic [ref=e61]:
+            - generic [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: Learn
+              - text: +
+            - generic:
+              - generic:          
+          - generic [ref=e64]:
+            - generic [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: Products
+              - text: +
+            - generic:
+              - generic:     
+          - generic [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: API
+            - text: +
+          - link "Candy Jar Candy" [ref=e71] [cursor=pointer]:
+            - /url: /en/candy
+            - img "Candy Jar" [ref=e73]
+            - generic [ref=e74]: Candy
+          - generic [ref=e75]:
+            - generic [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: 
+              - link "Portfolio" [ref=e78]:
+                - /url: /en/portfolio
+                - generic [ref=e79]: Portfolio
+              - text: +
+            - generic:
+              - generic:    +  +  +  +  +  
+          - text:  +  + 
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]: 
+              - text: Search
+            - generic [ref=e85]: /
+          - text:                                                              
+  - main [ref=e91]:
+    - generic [ref=e93]:
+      - navigation [ref=e95]:
+        - link "All" [ref=e96] [cursor=pointer]:
+          - /url: /learn?locale=en
+        - link "Latest" [ref=e97] [cursor=pointer]:
+          - /url: /learn/latest?locale=en
+        - link "Airdrops" [ref=e98] [cursor=pointer]:
+          - /url: /learn/category/airdrop-guides?locale=en
+        - link "Coins & Tokens" [ref=e99] [cursor=pointer]:
+          - /url: /learn/category/coins-and-tokens?locale=en
+        - link "Guides" [ref=e100] [cursor=pointer]:
+          - /url: /learn/category/guides?locale=en
+        - link "Wallets & Bridges" [ref=e101] [cursor=pointer]:
+          - /url: /learn/category/wallets-and-bridges?locale=en
+        - link "API" [ref=e102]:
+          - /url: /learn/category/api?locale=en
+        - link "Reviews" [ref=e103] [cursor=pointer]:
+          - /url: /learn/category/reviews?locale=en
+      - generic [ref=e105] [cursor=pointer]: More +
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - link "API" [ref=e112] [cursor=pointer]:
+              - /url: /learn/category/api
+              - generic [ref=e113]: API
+            - text: 
+          - heading "Best Cryptocurrency APIs of 2026" [level=1] [ref=e114]
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e118]: "5.0"
+              - generic [ref=e119]: 
+              - generic [ref=e120]: "| by"
+              - link "Brian Lee" [ref=e121] [cursor=pointer]:
+                - /url: https://www.coingecko.com/author/Brian%20Lee
+            - generic [ref=e122]:
+              - generic [ref=e123]: "-"
+              - time [ref=e124]: Updated January 02 2026
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - paragraph [ref=e127]: In the world of Web3 development, access to fast, reliable, and comprehensive data is a necessity. Whether you're building a trading bot, a DeFi dashboard, or a crypto wallet, the quality of your data infrastructure dictates the performance and potential of your application.
+            - paragraph [ref=e128]: In this article, we'll share our insights to provide an overview of the best cryptocurrency APIs, helping you choose the perfect solution for your needs.
+            - separator [ref=e129]
+            - heading "What is a Crypto API and Why is it Essential?" [level=2] [ref=e130]
+            - paragraph [ref=e131]: A crypto API (Application Programming Interface), is a service that allows different software applications to communicate with each other to access and exchange cryptocurrency and blockchain data. Think of it as a bridge that connects your application to the vast and complex world of blockchain networks and crypto markets.
+            - paragraph [ref=e132]: "This accessibility is essential for building almost any modern crypto application. Key use cases include:"
+            - list [ref=e133]:
+              - listitem [level=1] [ref=e134]:
+                - strong [ref=e135]: "Portfolio Trackers:"
+                - text: To display real-time asset prices, balances, and historical performance.
+              - listitem [level=1] [ref=e136]:
+                - strong [ref=e137]: "Trading Bots:"
+                - text: To receive market signals, price data, and other metrics to execute trades automatically.
+              - listitem [level=1] [ref=e138]:
+                - strong [ref=e139]: "Analytics Dashboards:"
+                - text: To visualize market trends, liquidity, and on-chain activity.
+              - listitem [level=1] [ref=e140]:
+                - strong [ref=e141]: "dApps (Decentralized Applications):"
+                - text: To enrich user interfaces with real-time token prices and metadata.
+              - listitem [level=1] [ref=e142]:
+                - strong [ref=e143]: "Crypto Wallets:"
+                - text: To show users the fiat value of their holdings.
+            - paragraph [ref=e144]: Without a robust crypto API, developers would need to run their own nodes for multiple blockchains and build complex systems to aggregate data from hundreds of exchanges, a process that is both resource-intensive and expensive.
+            - separator [ref=e145]
+            - iframe [ref=e148]:
+              - generic [active] [ref=f22e1]:
+                - generic [ref=f22e4]:
+                  - generic [ref=f22e5]:
+                    - generic "奇异互动" [ref=f22e7]:
+                      - link "美国3C精品线路云 服务器，25元起" [ref=f22e8] [cursor=pointer]:
+                        - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CALT3ly6ZacT7F_S40-kP6vmX-QW6pOuPhQGYu4eh8xPovNXciw4QASDgj-WTAWCdAaAB46fH0gPIAQapAsORWVjVbYM-4AIAqAMByAMKqgTSAk_Qpj7A4VdsqAIUKM9ZzNyYKXBVm6Kp3MCoNr7oY30fpshndOoJyQIclxnKxTxhCTBAzJb3U9m7p4DEJN1lCzoWJT7T68m0ucRoD78vON41trLpwhzJLMlJPuJd5BGzNZAuT0oLonPDiumHmH94k8G9Az2uEOxURxPeqWbdcsDyWi-ZI5Ynbsne-J3AnrUNjkNv0bLW9_R8Oioe_1qR5uZufPeqtd_5deObeaZ0L4h3asov3nBK68xnkTskKVpnnSLZGJEX5toXwYardGKOLOuoEnPTVDI-Atau6iwGaQkZELSTJwiNfrkfG-3X-Y5FAt00UlK3wmD2otrJg_7y_6Lxg7ZuhNUGnKzhOVbKoykwAsCbruk-64t4_M8AStF2ujySiPva12hOLxYo6AvINdOe-4HsuXTgfd-j-R8prTmt_H_zo15CxpRIfYR9hp7H6L5pwASamKikpQXgBAGIBc3El6FUgAeF2LgtqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYmLi0-dnpkgOxCf5D8Gq4NNoMgAoDmAsByAsBogwIKgYKBNbasQKqDQJDTsgNAeINEwjVmbX52emSAxV03DQHHer8JV_qDRMIuv61-dnpkgMVdNw0Bx3q_CVf8A0CiA7___________8B2BMNiBQL0BUByhYCCgD4FgGAFwGyFw4YASoKOTEzMjIwMzYxMroXAjgBqhgXCQAAAAAsLhBBEgo5MTMyMjAzNjEyGAGyGAkSAvBZGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE&num=1&cid=CAQSoAEA56J1eX5TTFd0y7LJlLjIAyptTG3uKVCzO_6INDjMf-wamrtxnsdikOM9AmO96meRleTapJlmXY1HlojP1dEpYESKZRUTezES4lZ_46l_arMsvteOiken5c17GPnO-nDpxUC1RsQlrv52cYcF95gMhTJE6x4XwsPWNjONfA-qHjQ6-MNefSStfoF2tEN2dPY1lJ1vdi7u_JBS8HYNZt1wGAE&sig=AOD64_0Ck48TL2YdESwLm6HKZYrde3KfcQ&client=ca-pub-4618644450685964&rf=4&nb=0&adurl=https://www.7e.hk/sale/%3Fgad_source%3D5%26gad_campaignid%3D22618169933%26gclid%3DEAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE
+                        - text: 美国3C精品线路云
+                        - text: 服务器，25元起
+                    - generic [ref=f22e9]:
+                      - link "域名注册8元起，丰富的后缀可选， 低廉的价格可比，一站式购物，不用 增加管理的时间成本。" [ref=f22e11] [cursor=pointer]:
+                        - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CALT3ly6ZacT7F_S40-kP6vmX-QW6pOuPhQGYu4eh8xPovNXciw4QASDgj-WTAWCdAaAB46fH0gPIAQapAsORWVjVbYM-4AIAqAMByAMKqgTSAk_Qpj7A4VdsqAIUKM9ZzNyYKXBVm6Kp3MCoNr7oY30fpshndOoJyQIclxnKxTxhCTBAzJb3U9m7p4DEJN1lCzoWJT7T68m0ucRoD78vON41trLpwhzJLMlJPuJd5BGzNZAuT0oLonPDiumHmH94k8G9Az2uEOxURxPeqWbdcsDyWi-ZI5Ynbsne-J3AnrUNjkNv0bLW9_R8Oioe_1qR5uZufPeqtd_5deObeaZ0L4h3asov3nBK68xnkTskKVpnnSLZGJEX5toXwYardGKOLOuoEnPTVDI-Atau6iwGaQkZELSTJwiNfrkfG-3X-Y5FAt00UlK3wmD2otrJg_7y_6Lxg7ZuhNUGnKzhOVbKoykwAsCbruk-64t4_M8AStF2ujySiPva12hOLxYo6AvINdOe-4HsuXTgfd-j-R8prTmt_H_zo15CxpRIfYR9hp7H6L5pwASamKikpQXgBAGIBc3El6FUgAeF2LgtqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYmLi0-dnpkgOxCf5D8Gq4NNoMgAoDmAsByAsBogwIKgYKBNbasQKqDQJDTsgNAeINEwjVmbX52emSAxV03DQHHer8JV_qDRMIuv61-dnpkgMVdNw0Bx3q_CVf8A0CiA7___________8B2BMNiBQL0BUByhYCCgD4FgGAFwGyFw4YASoKOTEzMjIwMzYxMroXAjgBqhgXCQAAAAAsLhBBEgo5MTMyMjAzNjEyGAGyGAkSAvBZGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE&num=1&cid=CAQSoAEA56J1eX5TTFd0y7LJlLjIAyptTG3uKVCzO_6INDjMf-wamrtxnsdikOM9AmO96meRleTapJlmXY1HlojP1dEpYESKZRUTezES4lZ_46l_arMsvteOiken5c17GPnO-nDpxUC1RsQlrv52cYcF95gMhTJE6x4XwsPWNjONfA-qHjQ6-MNefSStfoF2tEN2dPY1lJ1vdi7u_JBS8HYNZt1wGAE&sig=AOD64_0Ck48TL2YdESwLm6HKZYrde3KfcQ&client=ca-pub-4618644450685964&rf=4&nb=7&adurl=https://www.7e.hk/sale/%3Fgad_source%3D5%26gad_campaignid%3D22618169933%26gclid%3DEAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE
+                        - text: 域名注册8元起，丰富的后缀可选，
+                        - text: 低廉的价格可比，一站式购物，不用
+                        - text: 增加管理的时间成本。
+                      - link [ref=f22e12] [cursor=pointer]:
+                        - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CALT3ly6ZacT7F_S40-kP6vmX-QW6pOuPhQGYu4eh8xPovNXciw4QASDgj-WTAWCdAaAB46fH0gPIAQapAsORWVjVbYM-4AIAqAMByAMKqgTSAk_Qpj7A4VdsqAIUKM9ZzNyYKXBVm6Kp3MCoNr7oY30fpshndOoJyQIclxnKxTxhCTBAzJb3U9m7p4DEJN1lCzoWJT7T68m0ucRoD78vON41trLpwhzJLMlJPuJd5BGzNZAuT0oLonPDiumHmH94k8G9Az2uEOxURxPeqWbdcsDyWi-ZI5Ynbsne-J3AnrUNjkNv0bLW9_R8Oioe_1qR5uZufPeqtd_5deObeaZ0L4h3asov3nBK68xnkTskKVpnnSLZGJEX5toXwYardGKOLOuoEnPTVDI-Atau6iwGaQkZELSTJwiNfrkfG-3X-Y5FAt00UlK3wmD2otrJg_7y_6Lxg7ZuhNUGnKzhOVbKoykwAsCbruk-64t4_M8AStF2ujySiPva12hOLxYo6AvINdOe-4HsuXTgfd-j-R8prTmt_H_zo15CxpRIfYR9hp7H6L5pwASamKikpQXgBAGIBc3El6FUgAeF2LgtqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYmLi0-dnpkgOxCf5D8Gq4NNoMgAoDmAsByAsBogwIKgYKBNbasQKqDQJDTsgNAeINEwjVmbX52emSAxV03DQHHer8JV_qDRMIuv61-dnpkgMVdNw0Bx3q_CVf8A0CiA7___________8B2BMNiBQL0BUByhYCCgD4FgGAFwGyFw4YASoKOTEzMjIwMzYxMroXAjgBqhgXCQAAAAAsLhBBEgo5MTMyMjAzNjEyGAGyGAkSAvBZGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE&num=1&cid=CAQSoAEA56J1eX5TTFd0y7LJlLjIAyptTG3uKVCzO_6INDjMf-wamrtxnsdikOM9AmO96meRleTapJlmXY1HlojP1dEpYESKZRUTezES4lZ_46l_arMsvteOiken5c17GPnO-nDpxUC1RsQlrv52cYcF95gMhTJE6x4XwsPWNjONfA-qHjQ6-MNefSStfoF2tEN2dPY1lJ1vdi7u_JBS8HYNZt1wGAE&sig=AOD64_0Ck48TL2YdESwLm6HKZYrde3KfcQ&client=ca-pub-4618644450685964&rf=4&nb=8&adurl=https://www.7e.hk/sale/%3Fgad_source%3D5%26gad_campaignid%3D22618169933%26gclid%3DEAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE
+                        - img [ref=f22e13]
+                  - generic "奇异互动" [ref=f22e15]:
+                    - link "奇异互动" [ref=f22e16] [cursor=pointer]:
+                      - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CALT3ly6ZacT7F_S40-kP6vmX-QW6pOuPhQGYu4eh8xPovNXciw4QASDgj-WTAWCdAaAB46fH0gPIAQapAsORWVjVbYM-4AIAqAMByAMKqgTSAk_Qpj7A4VdsqAIUKM9ZzNyYKXBVm6Kp3MCoNr7oY30fpshndOoJyQIclxnKxTxhCTBAzJb3U9m7p4DEJN1lCzoWJT7T68m0ucRoD78vON41trLpwhzJLMlJPuJd5BGzNZAuT0oLonPDiumHmH94k8G9Az2uEOxURxPeqWbdcsDyWi-ZI5Ynbsne-J3AnrUNjkNv0bLW9_R8Oioe_1qR5uZufPeqtd_5deObeaZ0L4h3asov3nBK68xnkTskKVpnnSLZGJEX5toXwYardGKOLOuoEnPTVDI-Atau6iwGaQkZELSTJwiNfrkfG-3X-Y5FAt00UlK3wmD2otrJg_7y_6Lxg7ZuhNUGnKzhOVbKoykwAsCbruk-64t4_M8AStF2ujySiPva12hOLxYo6AvINdOe-4HsuXTgfd-j-R8prTmt_H_zo15CxpRIfYR9hp7H6L5pwASamKikpQXgBAGIBc3El6FUgAeF2LgtqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYmLi0-dnpkgOxCf5D8Gq4NNoMgAoDmAsByAsBogwIKgYKBNbasQKqDQJDTsgNAeINEwjVmbX52emSAxV03DQHHer8JV_qDRMIuv61-dnpkgMVdNw0Bx3q_CVf8A0CiA7___________8B2BMNiBQL0BUByhYCCgD4FgGAFwGyFw4YASoKOTEzMjIwMzYxMroXAjgBqhgXCQAAAAAsLhBBEgo5MTMyMjAzNjEyGAGyGAkSAvBZGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE&num=1&cid=CAQSoAEA56J1eX5TTFd0y7LJlLjIAyptTG3uKVCzO_6INDjMf-wamrtxnsdikOM9AmO96meRleTapJlmXY1HlojP1dEpYESKZRUTezES4lZ_46l_arMsvteOiken5c17GPnO-nDpxUC1RsQlrv52cYcF95gMhTJE6x4XwsPWNjONfA-qHjQ6-MNefSStfoF2tEN2dPY1lJ1vdi7u_JBS8HYNZt1wGAE&sig=AOD64_0Ck48TL2YdESwLm6HKZYrde3KfcQ&client=ca-pub-4618644450685964&rf=4&nb=1&adurl=https://www.7e.hk/sale/%3Fgad_source%3D5%26gad_campaignid%3D22618169933%26gclid%3DEAIaIQobChMIhKO2-dnpkgMVdNw0Bx3q_CVfEAEYASAAEgIvWfD_BwE
+                - generic [ref=f22e17]:
+                  - link [ref=f22e19] [cursor=pointer]:
+                    - /url: https://adssettings.google.com/whythisad?source=display&reasons=AWUvr30NSglFh9yLPXTUvHmd5agMEZGmphnRTXjO0BlCchWzxrJ36NzNLFwk1vnoZt8Oyed2NyD4EOvtymN8aHE-lv28MMs0i14TRPfrrEiy7JQlv2Fj17YluemTEIVvCWjh5Qt1Zb4zEUM4SR5mxRN5DCAQ9CAIe1xH0emaIda_gVEb9N4JQitvXDnwxu9HC4y1RKWUvDNhj6p0h9N4_bfCEGnafaSUkGMa6CiTFX-sT0F4yRvfmJUUZj-EwGdnSwXsTyp0DZD3xsrDWeqJZ7dOU3MfMH9a77Pu849n_PuSNJJF4z-0gODh0npgKHIj-itewTNiD1jgpYYllOAsoHaM6h_Vx_s_Z-9uS1wUPc3UjdzyKfWOER-54lJ0COX7mw8d3HlXjffAKWvsOBJ0fvY_3GXoovcm9qwfIYWyGr6jzxl__ZgEJ1AQd50NBWYpyp5vZeLxvijS5JGMadAJD4Ku8b6LaWst58h329dGTAG1KJr_Xpxt8e94Znkm37jB9yN9e9KDWFt-I4Emuv0X8Cu9Ejr1o4twhPGGzAZdp4KQ84KcTockYcCdj_S0JJS7F-ePXnE7pMog2TbYhiSFCKP87SguZ5qiyL872UZzYhQEyQtx8T__BVZve1-7qfTqrUmD4dyBI0XtGJBnLoiSKFbDqzWPEOPaaBhWYTc9MNSdeXGV2vibi-mDiL1N3DUsZK07yIyfQCLU7K-T3gMmIUje9A1yNIWz_L2Zt3ePtJTf5_a8tWASgeSNl88njo7PCgi8eDKttRN8LcaaUoM814CjxSst28CzmYkTRwiHgA0BTqwxh_fcjUSLfHotASk6dPlK0V7t8lH-6JB4CsKLmwMjbwIAxYI-4WQskAlWgSt1S3nDaLg_4fLAA4DFg7bCg8GKmaGa7OL82TP0RyVOqzWSZZ3_Pk8Ikq8o3ZbRskYiD639DhuXlZHkFJbyODPZXdsRHEh8_dtLGZc67qwRDVewcXX0WIOpFHUZeuglnabvvW1FNvTTIdsC8AZCmOoPMduG_-TU2W2mFrSiAmTOw76ddz-Dnos228jjkkCrvB1FIpbfbArt5Y1z3uuz6kVQ0QcWZ0SlN8IX_xTqv_NppyI_B3UXKJFg82oyW9m4ON0uFt3MGl0unmkb6k_BtipzLHz1LzgB1dDO00YMIe3Qe96n6RuoOU-JQ1qEfhegMuyHHcFEFz2Rt59KWDyZVCz9rDzLzwoAkMcJE42djx000sZI07UOSRY5Siy4L-B5enk042sa-NII3gCCnITReJAgCthJnNYzgrJHXcBjCmKoy5fZOQMG229NC3M6ylYjmVpOnj3cT_GcmA7IMG-izVhuH0naBT07RGgP5iewKV-D8KTS37MZum3OfcEmYTvtiVGNITLA67EP57hrfz3nJT6gRanVxQT2rMYOk-Mntn69mtnfcGU61kVN9wztkbwVDYx4M_rQ7QkeMoOJoy_zhNn81eNrBAgv5FqP8gbQ0wwDM5nUPksBgZGAqmWyIRjHyPIFbzgPa7fl6MEx8U1cWVutWKxil3s1Cus7CQBnj0kWR8A9dzzCZngNs7BpShru9kNYEIYSdgmCD3dtVdh-Tf5ANRTC3jLvDhY68JKvCEHv9qa09h8Ixva4K_HJKiyXPvH6IFDNuFLr3gHAstO8Z9Wm6ccWR4juctQ0a3AIHDzcDqTFrPFwEldTzZR8tzp_MmJ40jTvdCpNpcYFpPcPRXDHNTI9n0RHzikppamzyq-v5emSuu_ctUVKPmXIT32kbsJgrXAz40iQPfDYHn4TYI9qtfMypGOLi9k8US6bO1xFQxM-vHjwenkkYVegobvKy5XrWXL-tQp7FKo3qvIGNfVU-Dzj0Q621u6BxLbdw98uc3u0k_YzO6IsAt50_YyhEDWq9bZL25lcznE6HEHwagdUhTbEzjQ0jkDgn8m04nL0EdL5gbRnvVqzesNYg13Xy5XMNldpyffh6MowhGrNfOr7dB15rmKGZjrGjj0Acy8hHHQW9Np5_XfP4Ekd9HCXDTnSvXcLDLUGwSdekktgSyuVk6ytPmvD00Pyl5_cx1LagWfMeCTwNYEUYQXJMuHaFUP0g1CVEQe_5H0suipm6YwA1oTeZD0f-TbWc0IUvlEG1cnkvNo6jrJoA26RKwCFU6aEqyQt3vxXw2Yhuw5-8hd71AXCXPoEMywNervM9u2d9kocDe8FPtLKvDHhKorO2uxRa1DSKuiCY6x-gze1bjNM4j3v0kxjrhCsFkQCCka2Z_LSlIb3f4mn9Iwm640v6x_O-KRuYSsYd--knq1T30m9UK1X9RnT3ESr2HSW1JyYpxRKapNFYnDFzpdbun3E1w_fwSlj5kSy3jrNiNK_5vsw-w_dJjpByh76OuLD654HMNxUwVu1oWMpjrco03EKVbPpcJmtNoAC6cxZ9CXYwZ6HX2q0X19DPvYTjEV0Zgw4BRlw5WLEaNPYK1CtlK9SJomk2OLhfP8ystUiGL48u2cmxiT9jx6AbFXt&opi=122715837
+                    - img [ref=f22e21]
+                  - link [ref=f22e23] [cursor=pointer]:
+                    - /url: https://adssettings.google.com/whythisad?source=display&reasons=AWUvr30NSglFh9yLPXTUvHmd5agMEZGmphnRTXjO0BlCchWzxrJ36NzNLFwk1vnoZt8Oyed2NyD4EOvtymN8aHE-lv28MMs0i14TRPfrrEiy7JQlv2Fj17YluemTEIVvCWjh5Qt1Zb4zEUM4SR5mxRN5DCAQ9CAIe1xH0emaIda_gVEb9N4JQitvXDnwxu9HC4y1RKWUvDNhj6p0h9N4_bfCEGnafaSUkGMa6CiTFX-sT0F4yRvfmJUUZj-EwGdnSwXsTyp0DZD3xsrDWeqJZ7dOU3MfMH9a77Pu849n_PuSNJJF4z-0gODh0npgKHIj-itewTNiD1jgpYYllOAsoHaM6h_Vx_s_Z-9uS1wUPc3UjdzyKfWOER-54lJ0COX7mw8d3HlXjffAKWvsOBJ0fvY_3GXoovcm9qwfIYWyGr6jzxl__ZgEJ1AQd50NBWYpyp5vZeLxvijS5JGMadAJD4Ku8b6LaWst58h329dGTAG1KJr_Xpxt8e94Znkm37jB9yN9e9KDWFt-I4Emuv0X8Cu9Ejr1o4twhPGGzAZdp4KQ84KcTockYcCdj_S0JJS7F-ePXnE7pMog2TbYhiSFCKP87SguZ5qiyL872UZzYhQEyQtx8T__BVZve1-7qfTqrUmD4dyBI0XtGJBnLoiSKFbDqzWPEOPaaBhWYTc9MNSdeXGV2vibi-mDiL1N3DUsZK07yIyfQCLU7K-T3gMmIUje9A1yNIWz_L2Zt3ePtJTf5_a8tWASgeSNl88njo7PCgi8eDKttRN8LcaaUoM814CjxSst28CzmYkTRwiHgA0BTqwxh_fcjUSLfHotASk6dPlK0V7t8lH-6JB4CsKLmwMjbwIAxYI-4WQskAlWgSt1S3nDaLg_4fLAA4DFg7bCg8GKmaGa7OL82TP0RyVOqzWSZZ3_Pk8Ikq8o3ZbRskYiD639DhuXlZHkFJbyODPZXdsRHEh8_dtLGZc67qwRDVewcXX0WIOpFHUZeuglnabvvW1FNvTTIdsC8AZCmOoPMduG_-TU2W2mFrSiAmTOw76ddz-Dnos228jjkkCrvB1FIpbfbArt5Y1z3uuz6kVQ0QcWZ0SlN8IX_xTqv_NppyI_B3UXKJFg82oyW9m4ON0uFt3MGl0unmkb6k_BtipzLHz1LzgB1dDO00YMIe3Qe96n6RuoOU-JQ1qEfhegMuyHHcFEFz2Rt59KWDyZVCz9rDzLzwoAkMcJE42djx000sZI07UOSRY5Siy4L-B5enk042sa-NII3gCCnITReJAgCthJnNYzgrJHXcBjCmKoy5fZOQMG229NC3M6ylYjmVpOnj3cT_GcmA7IMG-izVhuH0naBT07RGgP5iewKV-D8KTS37MZum3OfcEmYTvtiVGNITLA67EP57hrfz3nJT6gRanVxQT2rMYOk-Mntn69mtnfcGU61kVN9wztkbwVDYx4M_rQ7QkeMoOJoy_zhNn81eNrBAgv5FqP8gbQ0wwDM5nUPksBgZGAqmWyIRjHyPIFbzgPa7fl6MEx8U1cWVutWKxil3s1Cus7CQBnj0kWR8A9dzzCZngNs7BpShru9kNYEIYSdgmCD3dtVdh-Tf5ANRTC3jLvDhY68JKvCEHv9qa09h8Ixva4K_HJKiyXPvH6IFDNuFLr3gHAstO8Z9Wm6ccWR4juctQ0a3AIHDzcDqTFrPFwEldTzZR8tzp_MmJ40jTvdCpNpcYFpPcPRXDHNTI9n0RHzikppamzyq-v5emSuu_ctUVKPmXIT32kbsJgrXAz40iQPfDYHn4TYI9qtfMypGOLi9k8US6bO1xFQxM-vHjwenkkYVegobvKy5XrWXL-tQp7FKo3qvIGNfVU-Dzj0Q621u6BxLbdw98uc3u0k_YzO6IsAt50_YyhEDWq9bZL25lcznE6HEHwagdUhTbEzjQ0jkDgn8m04nL0EdL5gbRnvVqzesNYg13Xy5XMNldpyffh6MowhGrNfOr7dB15rmKGZjrGjj0Acy8hHHQW9Np5_XfP4Ekd9HCXDTnSvXcLDLUGwSdekktgSyuVk6ytPmvD00Pyl5_cx1LagWfMeCTwNYEUYQXJMuHaFUP0g1CVEQe_5H0suipm6YwA1oTeZD0f-TbWc0IUvlEG1cnkvNo6jrJoA26RKwCFU6aEqyQt3vxXw2Yhuw5-8hd71AXCXPoEMywNervM9u2d9kocDe8FPtLKvDHhKorO2uxRa1DSKuiCY6x-gze1bjNM4j3v0kxjrhCsFkQCCka2Z_LSlIb3f4mn9Iwm640v6x_O-KRuYSsYd--knq1T30m9UK1X9RnT3ESr2HSW1JyYpxRKapNFYnDFzpdbun3E1w_fwSlj5kSy3jrNiNK_5vsw-w_dJjpByh76OuLD654HMNxUwVu1oWMpjrco03EKVbPpcJmtNoAC6cxZ9CXYwZ6HX2q0X19DPvYTjEV0Zgw4BRlw5WLEaNPYK1CtlK9SJomk2OLhfP8ystUiGL48u2cmxiT9jx6AbFXt&opi=122715837
+                    - img [ref=f22e25]
+                - img [ref=f22e28] [cursor=pointer]
+                - generic [ref=f22e39]:
+                  - img [ref=f22e42]
+                  - generic [ref=f22e45]:
+                    - text: Ads by
+                    - img [ref=f22e46]
+                  - generic [ref=f22e49]:
+                    - generic [ref=f22e52] [cursor=pointer]: Send feedback
+                    - link [ref=f22e54] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AWUvr30NSglFh9yLPXTUvHmd5agMEZGmphnRTXjO0BlCchWzxrJ36NzNLFwk1vnoZt8Oyed2NyD4EOvtymN8aHE-lv28MMs0i14TRPfrrEiy7JQlv2Fj17YluemTEIVvCWjh5Qt1Zb4zEUM4SR5mxRN5DCAQ9CAIe1xH0emaIda_gVEb9N4JQitvXDnwxu9HC4y1RKWUvDNhj6p0h9N4_bfCEGnafaSUkGMa6CiTFX-sT0F4yRvfmJUUZj-EwGdnSwXsTyp0DZD3xsrDWeqJZ7dOU3MfMH9a77Pu849n_PuSNJJF4z-0gODh0npgKHIj-itewTNiD1jgpYYllOAsoHaM6h_Vx_s_Z-9uS1wUPc3UjdzyKfWOER-54lJ0COX7mw8d3HlXjffAKWvsOBJ0fvY_3GXoovcm9qwfIYWyGr6jzxl__ZgEJ1AQd50NBWYpyp5vZeLxvijS5JGMadAJD4Ku8b6LaWst58h329dGTAG1KJr_Xpxt8e94Znkm37jB9yN9e9KDWFt-I4Emuv0X8Cu9Ejr1o4twhPGGzAZdp4KQ84KcTockYcCdj_S0JJS7F-ePXnE7pMog2TbYhiSFCKP87SguZ5qiyL872UZzYhQEyQtx8T__BVZve1-7qfTqrUmD4dyBI0XtGJBnLoiSKFbDqzWPEOPaaBhWYTc9MNSdeXGV2vibi-mDiL1N3DUsZK07yIyfQCLU7K-T3gMmIUje9A1yNIWz_L2Zt3ePtJTf5_a8tWASgeSNl88njo7PCgi8eDKttRN8LcaaUoM814CjxSst28CzmYkTRwiHgA0BTqwxh_fcjUSLfHotASk6dPlK0V7t8lH-6JB4CsKLmwMjbwIAxYI-4WQskAlWgSt1S3nDaLg_4fLAA4DFg7bCg8GKmaGa7OL82TP0RyVOqzWSZZ3_Pk8Ikq8o3ZbRskYiD639DhuXlZHkFJbyODPZXdsRHEh8_dtLGZc67qwRDVewcXX0WIOpFHUZeuglnabvvW1FNvTTIdsC8AZCmOoPMduG_-TU2W2mFrSiAmTOw76ddz-Dnos228jjkkCrvB1FIpbfbArt5Y1z3uuz6kVQ0QcWZ0SlN8IX_xTqv_NppyI_B3UXKJFg82oyW9m4ON0uFt3MGl0unmkb6k_BtipzLHz1LzgB1dDO00YMIe3Qe96n6RuoOU-JQ1qEfhegMuyHHcFEFz2Rt59KWDyZVCz9rDzLzwoAkMcJE42djx000sZI07UOSRY5Siy4L-B5enk042sa-NII3gCCnITReJAgCthJnNYzgrJHXcBjCmKoy5fZOQMG229NC3M6ylYjmVpOnj3cT_GcmA7IMG-izVhuH0naBT07RGgP5iewKV-D8KTS37MZum3OfcEmYTvtiVGNITLA67EP57hrfz3nJT6gRanVxQT2rMYOk-Mntn69mtnfcGU61kVN9wztkbwVDYx4M_rQ7QkeMoOJoy_zhNn81eNrBAgv5FqP8gbQ0wwDM5nUPksBgZGAqmWyIRjHyPIFbzgPa7fl6MEx8U1cWVutWKxil3s1Cus7CQBnj0kWR8A9dzzCZngNs7BpShru9kNYEIYSdgmCD3dtVdh-Tf5ANRTC3jLvDhY68JKvCEHv9qa09h8Ixva4K_HJKiyXPvH6IFDNuFLr3gHAstO8Z9Wm6ccWR4juctQ0a3AIHDzcDqTFrPFwEldTzZR8tzp_MmJ40jTvdCpNpcYFpPcPRXDHNTI9n0RHzikppamzyq-v5emSuu_ctUVKPmXIT32kbsJgrXAz40iQPfDYHn4TYI9qtfMypGOLi9k8US6bO1xFQxM-vHjwenkkYVegobvKy5XrWXL-tQp7FKo3qvIGNfVU-Dzj0Q621u6BxLbdw98uc3u0k_YzO6IsAt50_YyhEDWq9bZL25lcznE6HEHwagdUhTbEzjQ0jkDgn8m04nL0EdL5gbRnvVqzesNYg13Xy5XMNldpyffh6MowhGrNfOr7dB15rmKGZjrGjj0Acy8hHHQW9Np5_XfP4Ekd9HCXDTnSvXcLDLUGwSdekktgSyuVk6ytPmvD00Pyl5_cx1LagWfMeCTwNYEUYQXJMuHaFUP0g1CVEQe_5H0suipm6YwA1oTeZD0f-TbWc0IUvlEG1cnkvNo6jrJoA26RKwCFU6aEqyQt3vxXw2Yhuw5-8hd71AXCXPoEMywNervM9u2d9kocDe8FPtLKvDHhKorO2uxRa1DSKuiCY6x-gze1bjNM4j3v0kxjrhCsFkQCCka2Z_LSlIb3f4mn9Iwm640v6x_O-KRuYSsYd--knq1T30m9UK1X9RnT3ESr2HSW1JyYpxRKapNFYnDFzpdbun3E1w_fwSlj5kSy3jrNiNK_5vsw-w_dJjpByh76OuLD654HMNxUwVu1oWMpjrco03EKVbPpcJmtNoAC6cxZ9CXYwZ6HX2q0X19DPvYTjEV0Zgw4BRlw5WLEaNPYK1CtlK9SJomk2OLhfP8ystUiGL48u2cmxiT9jx6AbFXt&opi=122715837
+                      - generic [ref=f22e55]:
+                        - text: Why this ad?
+                        - img [ref=f22e56]
+                - generic [ref=f22e58]:
+                  - generic [ref=f22e61] [cursor=pointer]: Not interested in this ad
+                  - generic [ref=f22e64] [cursor=pointer]: Seen this ad multiple times
+                  - generic [ref=f22e67] [cursor=pointer]: Ad covered content
+                  - generic [ref=f22e70] [cursor=pointer]: Ad was inappropriate
+                - generic [ref=f22e76]: Thanks. Feedback improves Google ads
+                - generic [ref=f22e82]:
+                  - text: Ad closed by
+                  - img [ref=f22e83]
+            - heading "How to Choose the Best Crypto API" [level=2] [ref=e149]
+            - paragraph [ref=e150]:
+              - text: You can choose the
+              - link "best crypto API" [ref=e151] [cursor=pointer]:
+                - /url: https://www.coingecko.com/en/api
+              - text: "for your project by first identifying what type of data or functionality you need. The \"best\" API is the one that fits your specific goals. The first step is to determine which of the three main categories of crypto APIs you require: Data APIs, Exchange APIs, or RPC APIs."
+            - 'heading "For Price & Market Data: Crypto Data APIs" [level=3] [ref=e152]'
+            - paragraph [ref=e153]: A crypto data API specializes in aggregating and delivering a wide range of market data from hundreds of centralized (CEX) and decentralized (DEX) sources. This includes real-time prices, trading volume, market capitalization, historical data, and rich metadata for thousands of assets across multiple blockchains.
+            - paragraph [ref=e154]: This is the most common type of API needed by the majority of developers building user-facing applications like portfolio trackers, analytics websites, and bots that rely on broad market signals.
+            - paragraph [ref=e155]: "When evaluating a crypto data API, consider these factors:"
+            - list [ref=e156]:
+              - listitem [level=1] [ref=e157]:
+                - strong [ref=e158]: "Data Coverage:"
+                - text: How many crypto assets, exchanges, and blockchain networks does the API support? Comprehensive coverage ensures you won't miss out on niche or newly launched tokens.
+              - listitem [level=1] [ref=e159]:
+                - strong [ref=e160]: "Data Freshness:"
+                - text: How quickly is the data updated? For many applications, access to near real-time data is critical.
+              - listitem [level=1] [ref=e161]:
+                - strong [ref=e162]: "Historical Data Depth:"
+                - text: How far back does the historical data go? Deep historical data is crucial for backtesting trading strategies and performing long-term market analysis.
+              - listitem [level=1] [ref=e163]:
+                - strong [ref=e164]: "Reliability & Uptime:"
+                - text: Is the provider established and stable? You don't want to build your infrastructure on an API that might become unreliable or cease operations tomorrow.
+            - 'heading "For Executing Trades: Crypto Exchange APIs" [level=3] [ref=e165]'
+            - paragraph [ref=e166]: A crypto exchange API is provided directly by exchanges like Binance or Coinbase and allows users to programmatically manage their accounts, check balances, and execute trades. Unlike data APIs that provide information, exchange APIs provide direct trading functionality.
+            - paragraph [ref=e167]: These APIs are for developers building high-frequency trading bots, arbitrage tools, or any application that requires direct fund management and order execution on a specific exchange.
+            - paragraph [ref=e168]: The primary factor when choosing an exchange API is whether it supports the trading pairs you need. Other considerations include the exchange's liquidity for those pairs (which affects price execution), latency, and the variety of order types available through the API. Many advanced traders use multiple exchange APIs to find the best prices or capitalize on arbitrage opportunities.
+            - 'heading "For On-Chain Interactions: Blockchain (RPC) APIs" [level=3] [ref=e169]'
+            - paragraph [ref=e170]: Blockchain APIs, often called RPC (Remote Procedure Call) APIs, provide direct read and write access to a blockchain node. They allow you to query raw on-chain data, such as wallet balances, smart contract states, or transaction details, and to submit new transactions to the network.
+            - paragraph [ref=e171]: These are essential for developers building wallets, dApps, blockchain explorers, or any tool that needs to interact directly with the blockchain itself. However, they provide raw, unprocessed data and often lack the aggregated financial context (like real-time and historical fiat prices or market cap) that a Crypto Data API offers. For this reason, RPC APIs are frequently used in conjunction with Crypto Data APIs to build feature-rich applications. Key evaluation factors here include broad and reliable chain coverage.
+            - separator [ref=e172]
+            - heading "The Best Crypto APIs of 2026" [level=2] [ref=e173]
+            - paragraph [ref=e174]: Based on factors like data coverage, reliability, and available features, here are the top choices for each category in 2026.
+            - heading "Best Crypto Data APIs" [level=3] [ref=e175]
+            - 'heading "1. CoinGecko API: The Best All-In-One Crypto Data API for Comprehensive Market & On-Chain Data" [level=4] [ref=e176]'
+            - paragraph [ref=e177]:
+              - 'img "CoinGecko API: The Best All-In-One Crypto Data API for Comprehensive Market & On-Chain Data" [ref=e178]'
+            - paragraph [ref=e179]:
+              - text: The
+              - strong [ref=e180]:
+                - link "CoinGecko API" [ref=e181] [cursor=pointer]:
+                  - /url: https://www.coingecko.com/en/api
+              - text: is the industry-leading choice for cryptocurrency data, trusted by major players like Metamask, Coinbase, and Etherscan to power their platforms. With over 24 million tokens tracked across 250+ networks and more than 1700 exchanges, the CoinGecko API provides complete coverage of the crypto market and is the most comprehensive solution for multi-chain data. Data from the CoinGecko API is also highly trusted and reliable because it uses a
+              - link "proprietary aggregation methodology" [ref=e182] [cursor=pointer]:
+                - /url: https://www.coingecko.com/en/methodology
+              - text: with rigorous checks and advanced algorithms to independently verify every crypto asset price. This ensures the data is accurate, trustworthy, and free from manipulation or scams, making it a dependable source of truth for mission-critical applications.
+            - list [ref=e183]:
+              - listitem [level=1] [ref=e184]:
+                - strong [ref=e185]: "Key Features:"
+                - text: CoinGecko provides over 80 endpoints covering real-time and historical prices, OHLCV data, extensive on-chain DEX data from
+                - link "GeckoTerminal" [ref=e186] [cursor=pointer]:
+                  - /url: https://www.geckoterminal.com
+                - text: ", NFT metrics, rich token metadata, and"
+                - link "WebSocket APIs" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.coingecko.com/en/api/websocket
+                - text: for sub-second latency tick-level data. It also features powerful discovery endpoints for finding
+                - link "top gainers/losers" [ref=e188] [cursor=pointer]:
+                  - /url: https://docs.coingecko.com/reference/coins-top-gainers-losers
+                - text: ","
+                - link "trending coins" [ref=e189] [cursor=pointer]:
+                  - /url: https://docs.coingecko.com/reference/trending-search
+                - text: ", and assets across"
+                - link "500+ categories" [ref=e190] [cursor=pointer]:
+                  - /url: https://www.coingecko.com/en/categories
+                - text: . It features a generous Demo (free) plan, reliable 99.9% uptime SLA, and advanced endpoints for paid users. You can explore all endpoints in the
+                - link "CoinGecko API Documentation" [ref=e191] [cursor=pointer]:
+                  - /url: https://docs.coingecko.com/reference/endpoint-overview
+                - text: .
+              - listitem [level=1] [ref=e192]:
+                - strong [ref=e193]: "Best For:"
+                - text: Projects and businesses that need a comprehensive, industry-trusted crypto data API with complete market coverage, to power professional applications and use cases reliably.
+            - 'heading "2. CoinMarketCap API: An Alternative for Price Data" [level=4] [ref=e194]'
+            - paragraph:
+              - img "CoinMarketCap API"
+            - paragraph [ref=e195]: An alternative source for market data, the CoinMarketCap API offers wide coverage of digital assets from hundreds of exchanges.
+            - list [ref=e196]:
+              - listitem [level=1] [ref=e197]:
+                - strong [ref=e198]: "Key Features:"
+                - text: Provides real-time and historical price data for a wide range of cryptocurrencies. Its free tier provides access to real-time market data, while historical data and more advanced endpoints are exclusive to paid users.
+              - listitem [level=1] [ref=e199]:
+                - strong [ref=e200]: "Best For:"
+                - text: Applications that require basic price feeds and market analytics.
+            - 'heading "3. CoinPaprika API: Social & Event-Driven Data" [level=4] [ref=e201]'
+            - paragraph:
+              - img "CoinPaprika API"
+            - paragraph [ref=e202]: CoinPaprika provides detailed insights into the social media activity of coins across platforms like X (formerly Twitter), alongside its market data.
+            - list [ref=e203]:
+              - listitem [level=1] [ref=e204]:
+                - strong [ref=e205]: "Key Features:"
+                - text: Provides unique endpoints for tracking social signals, people, and coin-related events. The free plan is limited to data for the top 2,000 tokens by market capitalization.
+              - listitem [level=1] [ref=e206]:
+                - strong [ref=e207]: "Best For:"
+                - text: Projects that want to integrate social media activity and news alongside market data to gauge community sentiment.
+            - 'heading "4. CoinDesk API: Tick-level Trade & Order Book Data" [level=4] [ref=e208]'
+            - paragraph:
+              - img "CoinDesk API"
+            - paragraph [ref=e209]: This trading-focused API, formerly known as CryptoCompare, offers deep trading data from over 300 exchanges as well as market news.
+            - list [ref=e210]:
+              - listitem [level=1] [ref=e211]:
+                - strong [ref=e212]: "Key Features:"
+                - text: Provides granular, tick-by-tick trade data and order book depth, which are essential for detailed financial modeling and market microstructure analysis, alongside historical OHLCV, volumes, and news data.
+              - listitem [level=1] [ref=e213]:
+                - strong [ref=e214]: "Best For:"
+                - text: Financial analysts and researchers focusing on deep market analysis of well-established, large-cap crypto assets.
+            - heading "Crypto Data APIs Comparison Table" [level=4] [ref=e215]
+            - paragraph
+            - table [ref=e216]:
+              - rowgroup [ref=e223]:
+                - row "Feature CoinGecko API CoinMarketCap API CoinPaprika API CoinDesk" [ref=e224]:
+                  - columnheader "Feature" [ref=e225]
+                  - columnheader "CoinGecko API" [ref=e226]
+                  - columnheader "CoinMarketCap API" [ref=e227]
+                  - columnheader "CoinPaprika API" [ref=e228]
+                  - columnheader "CoinDesk" [ref=e229]
+              - rowgroup [ref=e230]:
+                - row "Tokens Supported 24M+ Tokens from 1700+ Exchanges 2.4M+ Tokens from 790+ Exchanges 57k+ Tokens from 350+ Exchanges 7k+ Tokens from 300+ Exchanges" [ref=e231]:
+                  - cell "Tokens Supported" [ref=e232]
+                  - cell "24M+ Tokens from 1700+ Exchanges" [ref=e233]
+                  - cell "2.4M+ Tokens from 790+ Exchanges" [ref=e234]
+                  - cell "57k+ Tokens from 350+ Exchanges" [ref=e235]
+                  - cell "7k+ Tokens from 300+ Exchanges" [ref=e236]
+                - row "Chains & Networks Supported 250+ 120+ 20+ 10+" [ref=e237]:
+                  - cell "Chains & Networks Supported" [ref=e238]
+                  - cell "250+" [ref=e239]
+                  - cell "120+" [ref=e240]
+                  - cell "20+" [ref=e241]
+                  - cell "10+" [ref=e242]
+                - row "Data Endpoints 80+ 40+ 25+ 60+" [ref=e243]:
+                  - cell "Data Endpoints" [ref=e244]
+                  - cell "80+" [ref=e245]
+                  - cell "40+" [ref=e246]
+                  - cell "25+" [ref=e247]
+                  - cell "60+" [ref=e248]
+                - row "WebSocket API Access Available on selected plans Not available Available on Enterprise plan only Available on selected plans" [ref=e249]:
+                  - cell "WebSocket API Access" [ref=e250]
+                  - cell "Available on selected plans" [ref=e251]
+                  - cell "Not available" [ref=e252]
+                  - cell "Available on Enterprise plan only" [ref=e253]
+                  - cell "Available on selected plans" [ref=e254]
+                - row "Free Plan Generous free plan that provides access to most endpoints, including real-time and historical prices, on-chain data, NFT metrics, OHLCV, and discovery tools. Free plan is available for real-time prices, but access to historical prices and other advanced endpoints requires a paid plan. Free plan with higher API call credits but limits data to the top 2,000 tokens by market cap. Free plan with a lifetime cap of 250k API calls." [ref=e255]:
+                  - cell "Free Plan" [ref=e256]
+                  - cell "Generous free plan that provides access to most endpoints, including real-time and historical prices, on-chain data, NFT metrics, OHLCV, and discovery tools." [ref=e257]
+                  - cell "Free plan is available for real-time prices, but access to historical prices and other advanced endpoints requires a paid plan." [ref=e258]
+                  - cell "Free plan with higher API call credits but limits data to the top 2,000 tokens by market cap." [ref=e259]
+                  - cell "Free plan with a lifetime cap of 250k API calls." [ref=e260]
+                - 'row "Pricing Starts at $35/month with: 100,000 call credits 250 requests per minute Starts at $35/month with: 110,000 call credits 30 requests per minute Starts at $99/month with: 400,000 call credits 10 requests per minute Custom Pricing" [ref=e261]':
+                  - cell "Pricing" [ref=e262]
+                  - 'cell "Starts at $35/month with: 100,000 call credits 250 requests per minute" [ref=e263]':
+                    - paragraph [ref=e264]: "Starts at $35/month with:"
+                    - list [ref=e265]:
+                      - listitem [ref=e266]: 100,000 call credits
+                      - listitem [ref=e267]: 250 requests per minute
+                  - 'cell "Starts at $35/month with: 110,000 call credits 30 requests per minute" [ref=e268]':
+                    - paragraph [ref=e269]: "Starts at $35/month with:"
+                    - list [ref=e270]:
+                      - listitem [ref=e271]: 110,000 call credits
+                      - listitem [ref=e272]: 30 requests per minute
+                  - 'cell "Starts at $99/month with: 400,000 call credits 10 requests per minute" [ref=e273]':
+                    - paragraph [ref=e274]: "Starts at $99/month with:"
+                    - list [ref=e275]:
+                      - listitem [ref=e276]: 400,000 call credits
+                      - listitem [ref=e277]: 10 requests per minute
+                  - cell "Custom Pricing" [ref=e278]
+            - separator [ref=e279]
+            - heading "Best Crypto Exchange APIs" [level=3] [ref=e280]
+            - 'heading "1. Binance API: Best for High-Volume Trading" [level=4] [ref=e281]'
+            - list [ref=e282]:
+              - listitem [level=1] [ref=e283]:
+                - strong [ref=e284]: "Key Features:"
+                - text: The Binance API is renowned for its high scalability, low latency, and robust support for spot, margin, and futures trading. It offers a wide range of order types and is designed to handle a large volume of requests.
+              - listitem [level=1] [ref=e285]:
+                - strong [ref=e286]: "Best For:"
+                - text: High-frequency trading bots, advanced trading applications, and users needing access to the largest exchange by trading volume.
+            - 'heading "2. Coinbase API: Best for Secure Trading & Retail Integration" [level=4] [ref=e287]'
+            - list [ref=e288]:
+              - listitem [level=1] [ref=e289]:
+                - strong [ref=e290]: "Key Features:"
+                - text: Coinbase's API is designed for secure and straightforward integration into retail-facing products. It provides robust trading functionality with support for multiple order types (limit, market, stop), advanced controls like post-only orders, and various time-in-force policies. Its strong security reputation is a key highlight, backed by insured custody for digital assets.
+              - listitem [level=1] [ref=e291]:
+                - strong [ref=e292]: "Best For:"
+                - text: Financial applications, retail-facing products, and services requiring high security and easy integration for crypto trades.
+            - separator [ref=e293]
+            - heading "Best Blockchain RPC APIs" [level=3] [ref=e294]
+            - 'heading "1. QuickNode: Best for Direct RPC Access" [level=4] [ref=e295]'
+            - list [ref=e296]:
+              - listitem [level=1] [ref=e297]:
+                - strong [ref=e298]: "Key Features:"
+                - text: QuickNode provides fast and reliable RPC, REST, and gRPC access for over 70 blockchains and their testnets, making it a versatile choice for multi-chain development.
+            - 'heading "2. Tatum API: Best for Wide Access of Chains" [level=4] [ref=e299]'
+            - list [ref=e300]:
+              - listitem [level=1] [ref=e301]:
+                - strong [ref=e302]: "Key Features:"
+                - text: Tatum offers a unified framework for over 130 blockchains via RPC and REST APIs, simplifying the process of building multi-chain applications.
+            - paragraph [ref=e303]: Both QuickNode and Tatum are best suited for dApp and wallet developers who need high-performance, direct access to raw on-chain data across a wide variety of networks.
+            - separator [ref=e304]
+            - heading "Conclusion" [level=2] [ref=e305]
+            - paragraph [ref=e306]:
+              - text: Choosing the right API is a foundational decision for any crypto project. Your choice depends on your primary goal. Use a
+              - strong [ref=e307]: Crypto Data API
+              - text: for market analysis and enriching applications, an
+              - strong [ref=e308]: Exchange API
+              - text: for programmatic trading, and an
+              - strong [ref=e309]: RPC API
+              - text: for direct blockchain interaction.
+            - paragraph [ref=e310]:
+              - text: While Exchange and RPC APIs are vital for their specific functions, the vast majority of developers looking to build rich, data-informed applications or conduct deep financial analysis will need a
+              - strong [ref=e311]: Crypto Data API
+              - text: . It is the foundational layer for understanding the market.
+            - paragraph [ref=e312]:
+              - text: For developers searching for the best crypto data API, as demonstrated by the extensive data coverage, developer-first features, and comprehensive endpoints, the
+              - strong [ref=e313]: CoinGecko API stands out as the definitive top choice
+              - text: .
+            - paragraph [ref=e314]:
+              - text: Ready to start building? Get your
+              - link "free CoinGecko API key" [ref=e315] [cursor=pointer]:
+                - /url: https://www.coingecko.com/en/api/pricing
+              - text: today and power your applications with crypto’s most trusted and comprehensive crypto data provider.
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - generic:
+                - img
+              - generic [ref=e319]: CoinGecko's Content Editorial Guidelines
+            - generic [ref=e320]:
+              - text: CoinGecko’s content aims to demystify the crypto industry. While certain posts you see may be sponsored, we strive to uphold the
+              - link "highest standards of editorial quality and integrity" [ref=e321] [cursor=pointer]:
+                - /url: https://www.coingecko.com/en/editorial-guidelines
+              - text: ", and do not publish any content that has not been vetted by our editors."
+            - button "Learn more" [ref=e322] [cursor=pointer]:
+              - generic [ref=e323]: Learn more
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - text: Want to be the first to know about upcoming airdrops?
+              - text: Subscribe to the CoinGecko Daily Newsletter!
+            - generic [ref=e327]: Join 600,000+ crypto enthusiasts, traders, and degens in getting the latest crypto news, articles, videos, and reports by subscribing to our FREE newsletter.
+            - generic [ref=e329]:
+              - textbox "Enter your email address" [ref=e333]
+              - generic [ref=e334]:
+                - button "Subscribe Now" [disabled]:
+                  - generic: Subscribe Now
+          - generic [ref=e336]:
+            - generic [ref=e338]: Tell us how much you like this article!
+            - generic [ref=e339]:
+              - generic [ref=e340] [cursor=pointer]:
+                - img "1" [ref=e341]
+                - img "2" [ref=e342]
+                - img "3" [ref=e343]
+                - img "4" [ref=e344]
+                - img "5" [ref=e345]
+              - generic [ref=e346]: "Vote count: 2"
+          - generic [ref=e347]:
+            - img "Brian Lee" [ref=e349]
+            - generic [ref=e350]:
+              - generic [ref=e351]: Brian Lee
+              - generic [ref=e353]: Brian is a Growth Marketer at CoinGecko, helping developers, traders, and crypto businesses discover and use CoinGecko API to build, track, and scale smarter with real-time crypto market data.
+          - link "Read more from Brian Lee" [ref=e355] [cursor=pointer]:
+            - /url: /author/Brian%20Lee
+      - generic [ref=e356]:
+        - generic [ref=e357] [cursor=pointer]:
+          - text:  
+          - generic [ref=e358]: TABLE OF CONTENTS
+          - generic [ref=e360]: 
+        - generic [ref=e361]:
+          - link "What is a Crypto API and Why is it Essential?" [ref=e362] [cursor=pointer]:
+            - /url: "#what-is-a-crypto-api-and-why-is-it-essential"
+          - link "How to Choose the Best Crypto API" [ref=e363] [cursor=pointer]:
+            - /url: "#how-to-choose-the-best-crypto-api"
+          - link "The Best Crypto APIs of 2026" [ref=e364] [cursor=pointer]:
+            - /url: "#the-best-crypto-apis-of-2026"
+          - link "Conclusion" [ref=e365] [cursor=pointer]:
+            - /url: "#conclusion"
+    - heading "More Articles" [level=3] [ref=e366]
+    - generic [ref=e367]:
+      - generic [ref=e368]:
+        - link "Is This a Crypto Winter? Post-Regulation Market Shift" [ref=e369] [cursor=pointer]:
+          - /url: https://www.coingecko.com/learn/is-this-a-crypto-winter-post-regulation-market-shift
+          - img "Is This a Crypto Winter? Post-Regulation Market Shift" [ref=e370]
+        - generic [ref=e371]:
+          - link "Coverage Is This a Crypto Winter? Post-Regulation Market Shift" [ref=e372] [cursor=pointer]:
+            - /url: https://www.coingecko.com/learn/is-this-a-crypto-winter-post-regulation-market-shift
+            - generic [ref=e373]: Coverage
+            - generic [ref=e374]: Is This a Crypto Winter? Post-Regulation Market Shift
+          - generic [ref=e376]: Tiger Research
+          - generic [ref=e377]:
+            - generic [ref=e378]: 
+            - text: 5.0 (2 votes)
+      - generic [ref=e379]:
+        - link "Top 5 Best Crypto Exchange APIs for Market Data (2026)" [ref=e380] [cursor=pointer]:
+          - /url: https://www.coingecko.com/learn/top-5-best-crypto-exchange-data-apis
+          - img "Top 5 Best Crypto Exchange APIs for Market Data (2026)" [ref=e381]
+        - generic [ref=e382]:
+          - link "API Top 5 Best Crypto Exchange APIs for Market Data (2026)" [ref=e383] [cursor=pointer]:
+            - /url: https://www.coingecko.com/learn/top-5-best-crypto-exchange-data-apis
+            - generic [ref=e384]: API
+            - generic [ref=e385]: Top 5 Best Crypto Exchange APIs for Market Data (2026)
+          - generic [ref=e387]: Brian Lee
+          - generic [ref=e388]:
+            - generic [ref=e389]: 
+            - text: 5.0 (1 votes)
+      - generic [ref=e390]:
+        - link "Market Share of Centralized Crypto Exchanges, by Trading Volume" [ref=e391] [cursor=pointer]:
+          - /url: https://www.coingecko.com/research/publications/centralized-crypto-exchanges-market-share
+          - img "Market Share of Centralized Crypto Exchanges, by Trading Volume" [ref=e392]
+        - generic [ref=e393]:
+          - link "Market Coverage Market Share of Centralized Crypto Exchanges, by Trading Volume" [ref=e394] [cursor=pointer]:
+            - /url: https://www.coingecko.com/research/publications/centralized-crypto-exchanges-market-share
+            - generic [ref=e395]: Market Coverage
+            - generic [ref=e396]: Market Share of Centralized Crypto Exchanges, by Trading Volume
+          - generic [ref=e398]: Shaun Paul Lee
+          - generic [ref=e399]:
+            - generic [ref=e400]: 
+            - text: 4.2 (88 votes)
+      - generic [ref=e401]:
+        - link "Top 5 Best Crypto WebSocket APIs (2026) – Real-Time Data Streams" [ref=e402] [cursor=pointer]:
+          - /url: https://www.coingecko.com/learn/top-5-best-crypto-websocket-apis
+          - img "Top 5 Best Crypto WebSocket APIs (2026) – Real-Time Data Streams" [ref=e403]
+        - generic [ref=e404]:
+          - link "API Top 5 Best Crypto WebSocket APIs (2026) – Real-Time Data Streams" [ref=e405] [cursor=pointer]:
+            - /url: https://www.coingecko.com/learn/top-5-best-crypto-websocket-apis
+            - generic [ref=e406]: API
+            - generic [ref=e407]: Top 5 Best Crypto WebSocket APIs (2026) – Real-Time Data Streams
+          - generic [ref=e409]: Brian Lee
+          - generic [ref=e410]:
+            - generic [ref=e411]: 
+            - text: 4.83 (6 votes)
+    - button "Read more" [ref=e413] [cursor=pointer]:
+      - generic [ref=e414]: Read more
+  - contentinfo [ref=e415]:
+    - generic [ref=e416]:
+      - generic [ref=e420]:
+        - generic [ref=e421]:
+          - link "CoinGecko" [ref=e422] [cursor=pointer]:
+            - /url: /
+            - img "CoinGecko" [ref=e423]
+          - generic [ref=e424]: CoinGecko provides a fundamental analysis of the crypto market. In addition to tracking price, volume and market capitalisation, CoinGecko tracks community growth, open-source code development, major events and on-chain metrics.
+          - img [ref=e425]
+          - img [ref=e426]
+        - generic [ref=e428]:
+          - generic [ref=e429]:
+            - generic [ref=e430]: Resources
+            - text: +
+          - generic [ref=e431]:
+            - link "Crypto News" [ref=e432] [cursor=pointer]:
+              - /url: /en/news
+              - generic [ref=e433]: Crypto News
+            - link "Crypto Treasuries" [ref=e434] [cursor=pointer]:
+              - /url: /en/treasuries
+              - generic [ref=e435]: Crypto Treasuries
+            - link "Crypto Heatmap" [ref=e436] [cursor=pointer]:
+              - /url: /en/cryptocurrency-heatmap
+              - generic [ref=e437]: Crypto Heatmap
+            - link "Crypto API" [ref=e438] [cursor=pointer]:
+              - /url: /en/api
+              - generic [ref=e439]: Crypto API
+        - generic [ref=e440]:
+          - generic [ref=e441]:
+            - generic [ref=e442]: Support
+            - text: +
+          - generic [ref=e443]:
+            - link "Request Form" [ref=e444] [cursor=pointer]:
+              - /url: /request-form?locale=en
+              - generic [ref=e445]: Request Form
+            - link "Advertising" [ref=e446] [cursor=pointer]:
+              - /url: https://gcko.io/coingeckoads
+              - generic [ref=e447]: Advertising
+            - link "Candy Rewards Listing" [ref=e448] [cursor=pointer]:
+              - /url: /en/candy/partners-getting-started
+              - generic [ref=e449]: Candy Rewards Listing
+            - link "Help Center" [ref=e450] [cursor=pointer]:
+              - /url: https://support.coingecko.com/
+              - generic [ref=e451]: Help Center
+            - link "Bug Bounty" [ref=e452] [cursor=pointer]:
+              - /url: https://hackenproof.com/coingecko/coingecko
+              - generic [ref=e453]: Bug Bounty
+            - link "FAQ" [ref=e454] [cursor=pointer]:
+              - /url: /en/faq
+              - generic [ref=e455]: FAQ
+        - generic [ref=e456]:
+          - generic [ref=e457]:
+            - generic [ref=e458]: About CoinGecko
+            - text: +
+          - generic [ref=e459]:
+            - link "About Us" [ref=e460] [cursor=pointer]:
+              - /url: /en/about
+              - generic [ref=e461]: About Us
+            - link "Careers Join Us" [ref=e462] [cursor=pointer]:
+              - /url: https://careers.coingecko.com/
+              - generic [ref=e463]: Careers
+              - generic [ref=e465]: Join Us
+            - link "Branding Guide" [ref=e466] [cursor=pointer]:
+              - /url: https://brand.coingecko.com
+              - generic [ref=e467]: Branding Guide
+            - link "Methodology" [ref=e468] [cursor=pointer]:
+              - /url: /en/methodology
+              - generic [ref=e469]: Methodology
+            - link "Disclaimer" [ref=e470] [cursor=pointer]:
+              - /url: /en/disclaimer
+              - generic [ref=e471]: Disclaimer
+            - link "Terms of Service" [ref=e472] [cursor=pointer]:
+              - /url: /en/terms
+              - generic [ref=e473]: Terms of Service
+            - link "Privacy Policy" [ref=e474] [cursor=pointer]:
+              - /url: /en/privacy
+              - generic [ref=e475]: Privacy Policy
+            - link "Ad Policy" [ref=e476] [cursor=pointer]:
+              - /url: /en/ad-policy
+              - generic [ref=e477]: Ad Policy
+            - generic [ref=e479] [cursor=pointer]: Cookie Preferences
+            - link "Trust Center" [ref=e480] [cursor=pointer]:
+              - /url: https://trust.coingecko.com
+              - generic [ref=e481]: Trust Center
+        - generic [ref=e482]:
+          - generic [ref=e483]:
+            - generic [ref=e484]: Community
+            - text: +
+          - generic [ref=e485]:
+            - link "X/Twitter" [ref=e486] [cursor=pointer]:
+              - /url: https://twitter.com/coingecko
+              - generic [ref=e487]: X/Twitter
+            - link "Telegram Chat" [ref=e488] [cursor=pointer]:
+              - /url: https://t.me/coingecko
+              - generic [ref=e489]: Telegram Chat
+            - link "Telegram News" [ref=e490] [cursor=pointer]:
+              - /url: https://t.me/coingeckonews
+              - generic [ref=e491]: Telegram News
+            - link "Instagram" [ref=e492] [cursor=pointer]:
+              - /url: https://www.instagram.com/coingecko/
+              - generic [ref=e493]: Instagram
+            - link "Reddit" [ref=e494] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/coingecko/
+              - generic [ref=e495]: Reddit
+            - link "Discord" [ref=e496] [cursor=pointer]:
+              - /url: https://discord.gg/EhrkaCH
+              - generic [ref=e497]: Discord
+            - link "Facebook" [ref=e498] [cursor=pointer]:
+              - /url: https://www.facebook.com/coingecko
+              - generic [ref=e499]: Facebook
+            - link "Youtube" [ref=e500] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC-OTgwOAI7KmP0eDAtqN3Ow?sub_confirmation=1
+              - generic [ref=e501]: Youtube
+            - link "TikTok" [ref=e502] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@coingeckotv
+              - generic [ref=e503]: TikTok
+      - generic [ref=e506]:
+        - generic [ref=e507]:
+          - generic [ref=e508]: Interested to stay up-to-date with cryptocurrencies?
+          - generic [ref=e509]: Get the latest crypto news, updates, and reports by subscribing to our free newsletter.
+        - generic [ref=e512]:
+          - textbox "Enter your email address" [ref=e516]
+          - generic [ref=e517]:
+            - button "Subscribe" [disabled]:
+              - generic: Subscribe
+      - generic [ref=e520]:
+        - generic [ref=e522]: © 2026 CoinGecko. All Rights Reserved.
+        - generic [ref=e523]:
+          - link "Google Play Store Button" [ref=e524] [cursor=pointer]:
+            - /url: https://coingecko.app.link/footer-android
+            - img "Google Play Store Button" [ref=e525]
+          - link "Apple App Store Button" [ref=e526] [cursor=pointer]:
+            - /url: https://coingecko.app.link/footer-ios
+            - img "Apple App Store Button" [ref=e527]
+      - generic [ref=e528]:
+        - link "IMPORTANT DISCLAIMER:" [ref=e529] [cursor=pointer]:
+          - /url: /en/disclaimer
+        - text: All content provided herein our website, hyperlinked sites, associated applications, forums, blogs, social media accounts and other platforms (“Site”) is for your general information only, procured from third party sources. We make no warranties of any kind in relation to our content, including but not limited to accuracy and updatedness. No part of the content that we provide constitutes financial advice, legal advice or any other form of advice meant for your specific reliance for any purpose. Any use or reliance on our content is solely at your own risk and discretion. You should conduct your own research, review, analyse and verify our content before relying on them. Trading is a highly risky activity that can lead to major losses, please therefore consult your financial advisor before making any decision. No content on our Site is meant to be a solicitation or offer.
+  - generic:  
+  - generic:  
+  - text:      
+  - generic:        
+  - generic:  
+  - generic: 
+  - text: 
+  - button "" [ref=e532] [cursor=pointer]:
+    - generic [ref=e534]: 
+  - text:     
+  - img [ref=e535]

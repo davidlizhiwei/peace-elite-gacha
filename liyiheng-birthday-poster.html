@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>李毅恒 12 岁生日会</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .poster {
+      width: 100%;
+      max-width: 500px;
+      background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5),
+                  0 0 100px rgba(255, 167, 38, 0.2);
+      position: relative;
+    }
+
+    /* 动态背景线条 */
+    .poster::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background:
+        repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 10px,
+          rgba(255, 167, 38, 0.03) 10px,
+          rgba(255, 167, 38, 0.03) 11px
+        );
+      pointer-events: none;
+    }
+
+    /* 顶部装饰 - 运动元素 */
+    .sports-header {
+      background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 50%, #ffa726 100%);
+      padding: 30px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sports-header::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+    }
+
+    .number-12 {
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 120px;
+      font-weight: 900;
+      color: white;
+      text-shadow:
+        4px 4px 0 #e65100,
+        8px 8px 20px rgba(0,0,0,0.3);
+      position: relative;
+      z-index: 1;
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .years-old {
+      font-size: 24px;
+      color: white;
+      font-weight: 700;
+      margin-top: -10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* 姓名区域 */
+    .name-section {
+      background: linear-gradient(135deg, #2196f3 0%, #21cbf3 100%);
+      padding: 25px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .name-section::before,
+    .name-section::after {
+      content: '⚽';
+      position: absolute;
+      font-size: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+    }
+
+    .name-section::before {
+      left: 20px;
+      animation: spin 4s linear infinite;
+    }
+
+    .name-section::after {
+      right: 20px;
+      animation: spin 4s linear infinite reverse;
+    }
+
+    @keyframes spin {
+      100% { transform: translateY(-50%) rotate(360deg); }
+    }
+
+    .name {
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 48px;
+      font-weight: 900;
+      color: white;
+      text-shadow: 3px 3px 0 #1565c0;
+      letter-spacing: 8px;
+    }
+
+    .birthday-title {
+      font-size: 20px;
+      color: white;
+      margin-top: 8px;
+      font-weight: 700;
+      letter-spacing: 3px;
+    }
+
+    /* 主要内容区 */
+    .content {
+      padding: 40px 30px;
+      background: linear-gradient(180deg, #16213e 0%, #1a1a2e 100%);
+    }
+
+    .info-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid rgba(255, 167, 38, 0.3);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      gap: 15px;
+    }
+
+    .info-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, #ff6b35 0%, #ffa726 100%);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+    }
+
+    .info-text {
+      flex: 1;
+    }
+
+    .info-label {
+      font-size: 12px;
+      color: #ffa726;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .info-value {
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+
+    /* 主题标语 */
+    .theme-slogan {
+      text-align: center;
+      padding: 25px;
+      background: linear-gradient(135deg, rgba(255, 107, 53, 0.2) 0%, rgba(255, 167, 38, 0.2) 100%);
+      border-radius: 15px;
+      border: 2px dashed rgba(255, 167, 38, 0.5);
+    }
+
+    .slogan {
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 28px;
+      color: #ffa726;
+      margin-bottom: 10px;
+    }
+
+    .sub-slogan {
+      font-size: 14px;
+      color: #81d4fa;
+      letter-spacing: 2px;
+    }
+
+    /* 底部装饰 */
+    .footer-decoration {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .footer-icon {
+      font-size: 32px;
+      animation: wiggle 1.5s ease-in-out infinite;
+    }
+
+    .footer-icon:nth-child(2) { animation-delay: 0.2s; }
+    .footer-icon:nth-child(3) { animation-delay: 0.4s; }
+    .footer-icon:nth-child(4) { animation-delay: 0.6s; }
+    .footer-icon:nth-child(5) { animation-delay: 0.8s; }
+
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(-10deg); }
+      50% { transform: rotate(10deg); }
+    }
+
+    /* 礼花效果 */
+    .confetti {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #ffa726;
+      animation: fall 4s linear infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(600px) rotate(720deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="poster">
+    <!-- 顶部数字 -->
+    <div class="sports-header">
+      <div class="number-12">12</div>
+      <div class="years-old">岁生日快乐</div>
+    </div>
+
+    <!-- 姓名区域 -->
+    <div class="name-section">
+      <div class="name">李毅恒</div>
+      <div class="birthday-title">★ 生日派对邀请 ★</div>
+    </div>
+
+    <!-- 主要内容 -->
+    <div class="content">
+      <!-- 详细信息卡片 -->
+      <div class="info-card">
+        <div class="info-item">
+          <div class="icon">📅</div>
+          <div class="info-text">
+            <div class="info-label">DATE</div>
+            <div class="info-value">2026 年 3 月 15 日（星期日）</div>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon">⏰</div>
+          <div class="info-text">
+            <div class="info-label">TIME</div>
+            <div class="info-value">下午 2:00 - 6:00</div>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon">📍</div>
+          <div class="info-text">
+            <div class="info-label">LOCATION</div>
+            <div class="info-value">XX 区 XX 路 XX 号 欢乐城堡</div>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon">📞</div>
+          <div class="info-text">
+            <div class="info-label">RSVP</div>
+            <div class="info-value">请联系：138-XXXX-XXXX</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 主题标语 -->
+      <div class="theme-slogan">
+        <div class="slogan">🏀 运动主题派对 🏈</div>
+        <div class="sub-slogan">一起来挥洒汗水，畅享欢乐时光！</div>
+      </div>
+    </div>
+
+    <!-- 底部装饰 -->
+    <div class="footer-decoration">
+      <span class="footer-icon">⚽</span>
+      <span class="footer-icon">🏀</span>
+      <span class="footer-icon">🏈</span>
+      <span class="footer-icon">🎾</span>
+      <span class="footer-icon">🏐</span>
+    </div>
+  </div>
+
+  <script>
+    // 添加礼花效果
+    function createConfetti() {
+      const colors = ['#ff6b35', '#ffa726', '#2196f3', '#21cbf3', '#ffd700'];
+      const confetti = document.createElement('div');
+      confetti.className = 'confetti';
+      confetti.style.left = Math.random() * 100 + '%';
+      confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+      confetti.style.animationDuration = (Math.random() * 2 + 3) + 's';
+      document.querySelector('.poster').appendChild(confetti);
+
+      setTimeout(() => confetti.remove(), 6000);
+    }
+
+    setInterval(createConfetti, 300);
+  </script>
+</body>
+</html>

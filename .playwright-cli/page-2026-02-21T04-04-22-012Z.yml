@@ -1,0 +1,1387 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - text: "✨ New Feature:"
+        - link "Track Multiple Wallets" [ref=e6] [cursor=pointer]:
+          - /url: https://www.coingecko.com/learn/coingecko-wallet-tracking
+      - generic [ref=e7] [cursor=pointer]: 
+    - generic [ref=e8]:
+      - text: 
+      - generic [ref=e10]:
+        - text:  
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - text: "Coins:"
+            - link "18,880" [ref=e13] [cursor=pointer]:
+              - /url: /
+          - generic [ref=e14]:
+            - text: "Exchanges:"
+            - link "1,468" [ref=e15] [cursor=pointer]:
+              - /url: /en/exchanges
+          - generic [ref=e16]:
+            - text: "Market Cap:"
+            - link "$2.397T" [ref=e17] [cursor=pointer]:
+              - /url: /en/charts
+            - generic [ref=e18]:
+              - generic [ref=e19]: 
+              - text: 0.8%
+          - generic [ref=e20]:
+            - text: "24h Vol:"
+            - link "$114.12B" [ref=e21] [cursor=pointer]:
+              - /url: /en/charts
+          - generic [ref=e22]:
+            - text: "Dominance:"
+            - generic [ref=e23]:
+              - link "BTC 56.4%" [ref=e24] [cursor=pointer]:
+                - /url: /en/charts/bitcoin-dominance
+              - link "ETH 9.85%" [ref=e25] [cursor=pointer]:
+                - /url: /en/charts/bitcoin-dominance
+          - generic [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 
+            - text: "Gas: 0.034 GWEI"
+        - text: 
+        - generic [ref=e29]:
+          - button "" [ref=e32] [cursor=pointer]:
+            - generic [ref=e34]: 
+          - text: 
+          - button "" [ref=e37] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - text: 
+          - button "Login" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: Login
+          - button "Sign up" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Sign up
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - text: 
+          - link "CoinGecko" [ref=e49] [cursor=pointer]:
+            - /url: /
+            - img "CoinGecko" [ref=e50]
+          - text:  
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: Cryptocurrencies
+              - text: +
+            - generic:
+              - generic:        
+          - generic [ref=e55]:
+            - generic [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: Exchanges
+              - text: +
+            - generic:
+              - generic:     
+          - generic [ref=e58]:
+            - generic [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: NFT
+              - text: +
+            - generic:
+              - generic:    
+          - generic [ref=e61]:
+            - generic [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: Learn
+              - text: +
+            - generic:
+              - generic:          
+          - generic [ref=e64]:
+            - generic [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: Products
+              - text: +
+            - generic:
+              - generic:     
+          - generic [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: API
+            - text: +
+          - link "Candy Jar Candy" [ref=e71] [cursor=pointer]:
+            - /url: /en/candy
+            - img "Candy Jar" [ref=e73]
+            - generic [ref=e74]: Candy
+          - generic [ref=e75]:
+            - generic [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: 
+              - link "Portfolio" [ref=e78]:
+                - /url: /en/portfolio
+                - generic [ref=e79]: Portfolio
+              - text: +
+            - generic:
+              - generic:    +  +  +  +  +  
+          - text:  +  + 
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]: 
+              - text: Search
+            - generic [ref=e85]: /
+          - text:                                                              
+  - main [ref=e91]:
+    - navigation "Breadcrumbs" [ref=e92]:
+      - list [ref=e93]:
+        - listitem [ref=e94]:
+          - link "API" [ref=e95] [cursor=pointer]:
+            - /url: /en/api
+          - generic [ref=e96]: 
+        - listitem [ref=e97]: Pricing
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - heading "CoinGecko Crypto Data API Plans" [level=1] [ref=e100]
+        - generic [ref=e101]: From hobbyist to large scale enterprise projects, we’ve got you covered with crypto data sourced by the world’s largest independent crypto data aggregator.
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - generic [ref=e106]: Monthly
+          - checkbox [checked] [ref=e108]
+          - generic [ref=e111]: Billed Yearly
+          - generic [ref=e112]: "- Save 20%"
+        - text:                                          
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e118]: Basic
+              - generic [ref=e119]: For personal use cases
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]: $29
+                - generic [ref=e123]: /mo
+              - generic [ref=e124]:
+                - text: $420 $348/yr - Save $72
+                - generic [ref=e125]: Billed Yearly
+            - button "Subscribe Now" [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: Subscribe Now
+            - generic [ref=e129]:
+              - generic [ref=e130]: 100k call credits/mo
+              - generic [ref=e131]: 250 rate limit/min
+              - generic [ref=e132]: 50+ market data endpoints
+              - generic [ref=e133]: 2 years historical data
+          - generic [ref=e135]:
+            - generic [ref=e136]: Most Popular
+            - generic [ref=e137]:
+              - generic [ref=e138]: Analyst
+              - generic [ref=e139]: For mission-critical analysis work
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - generic [ref=e142]: $103.2
+                - generic [ref=e143]: /mo
+              - generic [ref=e144]:
+                - text: $1,548 $1,238/yr - Save $310
+                - generic [ref=e145]: Billed Yearly
+            - button "Subscribe Now" [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]: Subscribe Now
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - text: 500k call credits/mo
+                - generic [ref=e152]: 
+              - generic [ref=e153]:
+                - text: 500 rate limit/min
+                - generic [ref=e155]: 
+              - generic [ref=e156]:
+                - text: 70+ market data endpoints
+                - generic [ref=e157]:
+                  - generic [ref=e158]: 
+                  - generic [ref=e159]: 
+              - generic [ref=e160]:
+                - text: 10 years historical data
+                - generic [ref=e161]:
+                  - generic [ref=e162]: 
+                  - generic [ref=e163]: 
+                  - generic [ref=e164]: 
+              - generic [ref=e165]:
+                - text: Exclusive data endpoints
+                - generic [ref=e166]:
+                  - generic [ref=e167]: 
+                  - generic [ref=e168]: 
+              - generic [ref=e169]:
+                - text: Priority email support
+                - generic [ref=e171]: 
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]: Lite
+              - generic [ref=e176]: Best for growing projects
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - generic [ref=e179]: $399.2
+                - generic [ref=e180]: /mo
+              - generic [ref=e181]:
+                - text: $5,988 $4,790/yr - Save $1,198
+                - generic [ref=e182]: Billed Yearly
+            - button "Subscribe Now" [ref=e185] [cursor=pointer]:
+              - generic [ref=e186]: Subscribe Now
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - button "2m call credits/mo " [ref=e191] [cursor=pointer]:
+                  - generic [ref=e192]: 2m call credits/mo
+                  - generic [ref=e193]: 
+                - generic [ref=e196]: 
+              - generic [ref=e197]:
+                - generic [ref=e198]: 500 rate limit/min
+                - generic [ref=e201]: 
+              - generic [ref=e202]:
+                - text: 70+ market data endpoints
+                - generic [ref=e203]:
+                  - generic [ref=e204]: 
+                  - generic [ref=e205]: 
+              - generic [ref=e206]:
+                - text: 10 years historical data
+                - generic [ref=e207]:
+                  - generic [ref=e208]: 
+                  - generic [ref=e209]: 
+                  - generic [ref=e210]: 
+              - generic [ref=e211]:
+                - text: Exclusive data endpoints
+                - generic [ref=e212]:
+                  - generic [ref=e213]: 
+                  - generic [ref=e214]: 
+              - generic [ref=e215]:
+                - text: Priority email support
+                - generic [ref=e217]: 
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e221]: Enterprise
+              - generic [ref=e222]: Enterprise-grade service, customised based on your needs
+            - generic [ref=e225]: Inquire for pricing
+            - button "Learn More" [ref=e227] [cursor=pointer]:
+              - generic [ref=e228]: Learn More
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - text: Custom call credits
+                - generic [ref=e231]:
+                  - generic [ref=e232]: 
+                  - generic [ref=e233]: 
+                  - generic [ref=e234]: 
+              - generic [ref=e235]:
+                - text: Custom rate limit/min
+                - generic [ref=e236]:
+                  - generic [ref=e237]: 
+                  - generic [ref=e238]: 
+                  - generic [ref=e239]: 
+              - generic [ref=e240]:
+                - text: 80+ market data endpoints
+                - generic [ref=e241]:
+                  - generic [ref=e242]: 
+                  - generic [ref=e243]: 
+                  - generic [ref=e244]: 
+              - generic [ref=e245]:
+                - text: 10 years historical data
+                - generic [ref=e246]:
+                  - generic [ref=e247]: 
+                  - generic [ref=e248]: 
+                  - generic [ref=e249]: 
+              - generic [ref=e250]:
+                - text: Enterprise-plan only endpoints
+                - generic [ref=e251]:
+                  - generic [ref=e252]: 
+                  - generic [ref=e253]: 
+                  - generic [ref=e254]: 
+              - generic [ref=e255]:
+                - text: Priority email & slack chat support
+                - generic [ref=e256]:
+                  - generic [ref=e257]: 
+                  - generic [ref=e258]: 
+                  - generic [ref=e259]: 
+              - generic [ref=e260]:
+                - text: 99.9% uptime SLA
+                - generic [ref=e261]:
+                  - generic [ref=e262]: 
+                  - generic [ref=e263]: 
+                  - generic [ref=e264]: 
+        - generic [ref=e265]: Price are exclusives of taxes. The applicable tax amounts will be shown on the checkout page
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - generic [ref=e270]: Want to try before subscribing?
+            - generic [ref=e271]: Effortlessly try CoinGecko's API with free Demo plan account, no credit card required!
+          - generic [ref=e272]:
+            - button "Create Free Account" [ref=e273] [cursor=pointer]:
+              - generic [ref=e274]: Create Free Account
+            - button "Explore Docs" [ref=e275] [cursor=pointer]:
+              - generic [ref=e276]: Explore Docs
+      - text:                                                                                                                                                                                                                                    
+      - table [ref=e279]:
+        - rowgroup [ref=e280]:
+          - row "Compare Plans Demo Attribution required Explore Docs Basic $29/mo Billed Yearly Subscribe Now Analyst  $103.2/mo Billed Yearly Subscribe Now Lite $399.2/mo Billed Yearly Subscribe Now Enterprise Inquire For Pricing Learn More" [ref=e281]:
+            - columnheader "Compare Plans" [ref=e282]:
+              - heading "Compare Plans" [level=2] [ref=e283]
+            - columnheader "Demo Attribution required Explore Docs" [ref=e284]:
+              - generic [ref=e285]: Demo
+              - link "Attribution required" [ref=e286] [cursor=pointer]:
+                - /url: https://brand.coingecko.com/resources/attribution-guide
+              - button "Explore Docs" [ref=e287] [cursor=pointer]:
+                - generic [ref=e288]: Explore Docs
+            - columnheader "Basic $29/mo Billed Yearly Subscribe Now" [ref=e289]:
+              - generic [ref=e290]: Basic
+              - generic [ref=e291]: $29/mo
+              - generic [ref=e292]: Billed Yearly
+              - button "Subscribe Now" [ref=e293] [cursor=pointer]:
+                - generic [ref=e294]: Subscribe Now
+            - columnheader "Analyst  $103.2/mo Billed Yearly Subscribe Now" [ref=e295]:
+              - generic [ref=e296]:
+                - text: Analyst
+                - generic [ref=e297]: 
+              - generic [ref=e298]: $103.2/mo
+              - generic [ref=e299]: Billed Yearly
+              - button "Subscribe Now" [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]: Subscribe Now
+            - columnheader "Lite $399.2/mo Billed Yearly Subscribe Now" [ref=e302]:
+              - generic [ref=e303]: Lite
+              - generic [ref=e304]: $399.2/mo
+              - generic [ref=e305]: Billed Yearly
+              - button "Subscribe Now" [ref=e307] [cursor=pointer]:
+                - generic [ref=e308]: Subscribe Now
+            - columnheader "Enterprise Inquire For Pricing Learn More" [ref=e309]:
+              - generic [ref=e310]: Enterprise
+              - generic [ref=e311]: Inquire For Pricing
+              - button "Learn More" [ref=e312] [cursor=pointer]:
+                - generic [ref=e313]: Learn More
+        - rowgroup [ref=e314]:
+          - row "Call credits /mo  10k 100k 500k 2M  Custom" [ref=e315]:
+            - cell "Call credits /mo " [ref=e316]:
+              - generic [ref=e317]:
+                - text: Call credits /mo
+                - generic [ref=e319]: 
+            - cell "10k" [ref=e320]
+            - cell "100k" [ref=e321]
+            - cell "500k" [ref=e322]
+            - cell "2M " [ref=e323]:
+              - button "2M " [ref=e326] [cursor=pointer]:
+                - generic [ref=e327]: 2M
+                - generic [ref=e328]: 
+            - cell "Custom" [ref=e329]
+          - row "Rate limit /min 30 250 500 500 Custom" [ref=e330]:
+            - cell "Rate limit /min" [ref=e331]:
+              - generic [ref=e332]: Rate limit /min
+            - cell "30" [ref=e333]
+            - cell "250" [ref=e334]
+            - cell "500" [ref=e335]
+            - cell "500" [ref=e336]
+            - cell "Custom" [ref=e337]
+          - row "Endpoints 50+ 50+ 70+ 70+ 80+" [ref=e338]:
+            - cell "Endpoints" [ref=e339]:
+              - generic [ref=e340]: Endpoints
+            - cell "50+" [ref=e341]
+            - cell "50+" [ref=e342]
+            - cell "70+" [ref=e343]
+            - cell "70+" [ref=e344]
+            - cell "80+" [ref=e345]
+          - row "Data Freshness  from 60 sec from 10 sec Real-time Real-time Real-time" [ref=e346]:
+            - cell "Data Freshness " [ref=e347]:
+              - generic [ref=e348]:
+                - text: Data Freshness
+                - generic [ref=e350]: 
+            - cell "from 60 sec" [ref=e351]
+            - cell "from 10 sec" [ref=e352]
+            - cell "Real-time" [ref=e353]
+            - cell "Real-time" [ref=e354]
+            - cell "Real-time" [ref=e355]
+          - row "API Keys 1 1 10 10 25" [ref=e356]:
+            - cell "API Keys" [ref=e357]:
+              - generic [ref=e358]: API Keys
+            - cell "1" [ref=e359]
+            - cell "1" [ref=e360]
+            - cell "10" [ref=e361]
+            - cell "10" [ref=e362]
+            - cell "25" [ref=e363]
+          - row " WebSocket   10 sockets 10 sockets Custom" [ref=e364]:
+            - cell " WebSocket" [ref=e365]:
+              - generic [ref=e366]:
+                - generic [ref=e367]: 
+                - text: WebSocket
+            - cell "" [ref=e368]:
+              - generic [ref=e369]: 
+            - cell "" [ref=e370]:
+              - generic [ref=e371]: 
+            - cell "10 sockets" [ref=e372]
+            - cell "10 sockets" [ref=e373]
+            - cell "Custom" [ref=e374]
+          - row "User limit per team 2 2 5 5 20" [ref=e375]:
+            - cell "User limit per team" [ref=e376]:
+              - generic [ref=e377]: User limit per team
+            - cell "2" [ref=e378]
+            - cell "2" [ref=e379]
+            - cell "5" [ref=e380]
+            - cell "5" [ref=e381]
+            - cell "20" [ref=e382]
+          - row "License   Commercial Commercial Custom" [ref=e383]:
+            - cell "License" [ref=e384]:
+              - generic [ref=e385]: License
+            - cell "" [ref=e386]:
+              - generic [ref=e387]: 
+            - cell "" [ref=e388]:
+              - generic [ref=e389]: 
+            - cell "Commercial" [ref=e390]:
+              - link "Commercial" [ref=e391] [cursor=pointer]:
+                - /url: https://www.coingecko.com/en/api/enterprise/data-license
+            - cell "Commercial" [ref=e392]:
+              - link "Commercial" [ref=e393] [cursor=pointer]:
+                - /url: https://www.coingecko.com/en/api/enterprise/data-license
+            - cell "Custom" [ref=e394]:
+              - link "Custom" [ref=e395] [cursor=pointer]:
+                - /url: https://www.coingecko.com/en/api/enterprise/data-license
+          - row "Overage Charge /call  $0.0005 $0.0005 $0.0005 Custom" [ref=e396]:
+            - cell "Overage Charge /call" [ref=e397]:
+              - generic [ref=e398]: Overage Charge /call
+            - cell "" [ref=e399]:
+              - generic [ref=e400]: 
+            - cell "$0.0005" [ref=e401]
+            - cell "$0.0005" [ref=e402]
+            - cell "$0.0005" [ref=e403]
+            - cell "Custom" [ref=e404]
+          - row "Coins & Tokens" [ref=e405]:
+            - cell "Coins & Tokens" [ref=e406]:
+              - generic [ref=e407]: Coins & Tokens
+            - cell [ref=e408]
+            - cell [ref=e409]
+            - cell [ref=e410]
+            - cell [ref=e411]
+            - cell [ref=e412]
+          - row "Coin Price, Market Cap, Volume     " [ref=e413]:
+            - cell "Coin Price, Market Cap, Volume" [ref=e414]:
+              - generic [ref=e415]: Coin Price, Market Cap, Volume
+            - cell "" [ref=e416]:
+              - generic [ref=e417]: 
+            - cell "" [ref=e418]:
+              - generic [ref=e419]: 
+            - cell "" [ref=e420]:
+              - generic [ref=e421]: 
+            - cell "" [ref=e422]:
+              - generic [ref=e423]: 
+            - cell "" [ref=e424]:
+              - generic [ref=e425]: 
+          - row "Coin Metadata (Community links, etc.)     " [ref=e426]:
+            - cell "Coin Metadata (Community links, etc.)" [ref=e427]:
+              - generic [ref=e428]: Coin Metadata (Community links, etc.)
+            - cell "" [ref=e429]:
+              - generic [ref=e430]: 
+            - cell "" [ref=e431]:
+              - generic [ref=e432]: 
+            - cell "" [ref=e433]:
+              - generic [ref=e434]: 
+            - cell "" [ref=e435]:
+              - generic [ref=e436]: 
+            - cell "" [ref=e437]:
+              - generic [ref=e438]: 
+          - row "Asset Search (Coins, Categories, Markets)     " [ref=e439]:
+            - cell "Asset Search (Coins, Categories, Markets)" [ref=e440]:
+              - generic [ref=e441]: Asset Search (Coins, Categories, Markets)
+            - cell "" [ref=e442]:
+              - generic [ref=e443]: 
+            - cell "" [ref=e444]:
+              - generic [ref=e445]: 
+            - cell "" [ref=e446]:
+              - generic [ref=e447]: 
+            - cell "" [ref=e448]:
+              - generic [ref=e449]: 
+            - cell "" [ref=e450]:
+              - generic [ref=e451]: 
+          - row "Coin Historical Data Daily 1 year 2 years from 2013 from 2013 from 2013" [ref=e452]:
+            - cell "Coin Historical Data Daily" [ref=e453]:
+              - generic [ref=e454]:
+                - text: Coin Historical Data
+                - generic [ref=e456]: Daily
+            - cell "1 year" [ref=e457]
+            - cell "2 years" [ref=e458]
+            - cell "from 2013" [ref=e459]
+            - cell "from 2013" [ref=e460]
+            - cell "from 2013" [ref=e461]
+          - row "Coin Historical Data Hourly 1 year 2 years from 2018 from 2018 from 2018" [ref=e462]:
+            - cell "Coin Historical Data Hourly" [ref=e463]:
+              - generic [ref=e464]:
+                - text: Coin Historical Data
+                - generic [ref=e466]: Hourly
+            - cell "1 year" [ref=e467]
+            - cell "2 years" [ref=e468]
+            - cell "from 2018" [ref=e469]
+            - cell "from 2018" [ref=e470]
+            - cell "from 2018" [ref=e471]
+          - row "Coin Historical Data 5 Minutely 1 day 1 day 1 day 1 day from 2018" [ref=e472]:
+            - cell "Coin Historical Data 5 Minutely" [ref=e473]:
+              - generic [ref=e474]:
+                - text: Coin Historical Data
+                - generic [ref=e476]: 5 Minutely
+            - cell "1 day" [ref=e477]
+            - cell "1 day" [ref=e478]
+            - cell "1 day" [ref=e479]
+            - cell "1 day" [ref=e480]
+            - cell "from 2018" [ref=e481]
+          - row "Coin OHLC Chart     " [ref=e482]:
+            - cell "Coin OHLC Chart" [ref=e483]:
+              - generic [ref=e484]: Coin OHLC Chart
+            - cell "" [ref=e485]:
+              - generic [ref=e486]: 
+            - cell "" [ref=e487]:
+              - generic [ref=e488]: 
+            - cell "" [ref=e489]:
+              - generic [ref=e490]: 
+            - cell "" [ref=e491]:
+              - generic [ref=e492]: 
+            - cell "" [ref=e493]:
+              - generic [ref=e494]: 
+          - row "Coin OHLC Chart by Custom Range     " [ref=e495]:
+            - cell "Coin OHLC Chart by Custom Range" [ref=e496]:
+              - generic [ref=e497]: Coin OHLC Chart by Custom Range
+            - cell "" [ref=e498]:
+              - generic [ref=e499]: 
+            - cell "" [ref=e500]:
+              - generic [ref=e501]: 
+            - cell "" [ref=e502]:
+              - generic [ref=e503]: 
+            - cell "" [ref=e504]:
+              - generic [ref=e505]: 
+            - cell "" [ref=e506]:
+              - generic [ref=e507]: 
+          - row "Recently Added Coins     " [ref=e508]:
+            - cell "Recently Added Coins" [ref=e509]:
+              - generic [ref=e510]: Recently Added Coins
+            - cell "" [ref=e511]:
+              - generic [ref=e512]: 
+            - cell "" [ref=e513]:
+              - generic [ref=e514]: 
+            - cell "" [ref=e515]:
+              - generic [ref=e516]: 
+            - cell "" [ref=e517]:
+              - generic [ref=e518]: 
+            - cell "" [ref=e519]:
+              - generic [ref=e520]: 
+          - row "Coin Historical Circulating & Total Supply     " [ref=e521]:
+            - cell "Coin Historical Circulating & Total Supply" [ref=e522]:
+              - generic [ref=e523]: Coin Historical Circulating & Total Supply
+            - cell "" [ref=e524]:
+              - generic [ref=e525]: 
+            - cell "" [ref=e526]:
+              - generic [ref=e527]: 
+            - cell "" [ref=e528]:
+              - generic [ref=e529]: 
+            - cell "" [ref=e530]:
+              - generic [ref=e531]: 
+            - cell "" [ref=e532]:
+              - generic [ref=e533]: 
+          - row "Crypto Market" [ref=e534]:
+            - cell "Crypto Market" [ref=e535]:
+              - generic [ref=e536]: Crypto Market
+            - cell [ref=e537]
+            - cell [ref=e538]
+            - cell [ref=e539]
+            - cell [ref=e540]
+            - cell [ref=e541]
+          - row "Global Market Cap     " [ref=e542]:
+            - cell "Global Market Cap" [ref=e543]:
+              - generic [ref=e544]: Global Market Cap
+            - cell "" [ref=e545]:
+              - generic [ref=e546]: 
+            - cell "" [ref=e547]:
+              - generic [ref=e548]: 
+            - cell "" [ref=e549]:
+              - generic [ref=e550]: 
+            - cell "" [ref=e551]:
+              - generic [ref=e552]: 
+            - cell "" [ref=e553]:
+              - generic [ref=e554]: 
+          - row "Historical Global Market Cap     " [ref=e555]:
+            - cell "Historical Global Market Cap" [ref=e556]:
+              - generic [ref=e557]: Historical Global Market Cap
+            - cell "" [ref=e558]:
+              - generic [ref=e559]: 
+            - cell "" [ref=e560]:
+              - generic [ref=e561]: 
+            - cell "" [ref=e562]:
+              - generic [ref=e563]: 
+            - cell "" [ref=e564]:
+              - generic [ref=e565]: 
+            - cell "" [ref=e566]:
+              - generic [ref=e567]: 
+          - row "Top Gainers & Losers     " [ref=e568]:
+            - cell "Top Gainers & Losers" [ref=e569]:
+              - generic [ref=e570]: Top Gainers & Losers
+            - cell "" [ref=e571]:
+              - generic [ref=e572]: 
+            - cell "" [ref=e573]:
+              - generic [ref=e574]: 
+            - cell "" [ref=e575]:
+              - generic [ref=e576]: 
+            - cell "" [ref=e577]:
+              - generic [ref=e578]: 
+            - cell "" [ref=e579]:
+              - generic [ref=e580]: 
+          - row "Trending Searches     " [ref=e581]:
+            - cell "Trending Searches" [ref=e582]:
+              - generic [ref=e583]: Trending Searches
+            - cell "" [ref=e584]:
+              - generic [ref=e585]: 
+            - cell "" [ref=e586]:
+              - generic [ref=e587]: 
+            - cell "" [ref=e588]:
+              - generic [ref=e589]: 
+            - cell "" [ref=e590]:
+              - generic [ref=e591]: 
+            - cell "" [ref=e592]:
+              - generic [ref=e593]: 
+          - row "Categories with Market Data     " [ref=e594]:
+            - cell "Categories with Market Data" [ref=e595]:
+              - generic [ref=e596]: Categories with Market Data
+            - cell "" [ref=e597]:
+              - generic [ref=e598]: 
+            - cell "" [ref=e599]:
+              - generic [ref=e600]: 
+            - cell "" [ref=e601]:
+              - generic [ref=e602]: 
+            - cell "" [ref=e603]:
+              - generic [ref=e604]: 
+            - cell "" [ref=e605]:
+              - generic [ref=e606]: 
+          - row "Exchanges & Derivatives" [ref=e607]:
+            - cell "Exchanges & Derivatives" [ref=e608]:
+              - generic [ref=e609]: Exchanges & Derivatives
+            - cell [ref=e610]
+            - cell [ref=e611]
+            - cell [ref=e612]
+            - cell [ref=e613]
+            - cell [ref=e614]
+          - row "Exchange Info, Metadata & Trading Pairs     " [ref=e615]:
+            - cell "Exchange Info, Metadata & Trading Pairs" [ref=e616]:
+              - generic [ref=e617]: Exchange Info, Metadata & Trading Pairs
+            - cell "" [ref=e618]:
+              - generic [ref=e619]: 
+            - cell "" [ref=e620]:
+              - generic [ref=e621]: 
+            - cell "" [ref=e622]:
+              - generic [ref=e623]: 
+            - cell "" [ref=e624]:
+              - generic [ref=e625]: 
+            - cell "" [ref=e626]:
+              - generic [ref=e627]: 
+          - row "Exchange Volume Chart     " [ref=e628]:
+            - cell "Exchange Volume Chart" [ref=e629]:
+              - generic [ref=e630]: Exchange Volume Chart
+            - cell "" [ref=e631]:
+              - generic [ref=e632]: 
+            - cell "" [ref=e633]:
+              - generic [ref=e634]: 
+            - cell "" [ref=e635]:
+              - generic [ref=e636]: 
+            - cell "" [ref=e637]:
+              - generic [ref=e638]: 
+            - cell "" [ref=e639]:
+              - generic [ref=e640]: 
+          - row "Exchange Volume Chart by Custom Range     " [ref=e641]:
+            - cell "Exchange Volume Chart by Custom Range" [ref=e642]:
+              - generic [ref=e643]: Exchange Volume Chart by Custom Range
+            - cell "" [ref=e644]:
+              - generic [ref=e645]: 
+            - cell "" [ref=e646]:
+              - generic [ref=e647]: 
+            - cell "" [ref=e648]:
+              - generic [ref=e649]: 
+            - cell "" [ref=e650]:
+              - generic [ref=e651]: 
+            - cell "" [ref=e652]:
+              - generic [ref=e653]: 
+          - row "Exchange Historical Data 1 year 2 years from 2018 from 2018 from 2018" [ref=e654]:
+            - cell "Exchange Historical Data" [ref=e655]:
+              - generic [ref=e656]: Exchange Historical Data
+            - cell "1 year" [ref=e657]
+            - cell "2 years" [ref=e658]
+            - cell "from 2018" [ref=e659]
+            - cell "from 2018" [ref=e660]
+            - cell "from 2018" [ref=e661]
+          - row "Derivative Info, Metadata & Trading Pairs     " [ref=e662]:
+            - cell "Derivative Info, Metadata & Trading Pairs" [ref=e663]:
+              - generic [ref=e664]: Derivative Info, Metadata & Trading Pairs
+            - cell "" [ref=e665]:
+              - generic [ref=e666]: 
+            - cell "" [ref=e667]:
+              - generic [ref=e668]: 
+            - cell "" [ref=e669]:
+              - generic [ref=e670]: 
+            - cell "" [ref=e671]:
+              - generic [ref=e672]: 
+            - cell "" [ref=e673]:
+              - generic [ref=e674]: 
+          - row "Public Treasuries" [ref=e675]:
+            - cell "Public Treasuries" [ref=e676]:
+              - generic [ref=e677]: Public Treasuries
+            - cell [ref=e678]
+            - cell [ref=e679]
+            - cell [ref=e680]
+            - cell [ref=e681]
+            - cell [ref=e682]
+          - row "Treasury Holdings     " [ref=e683]:
+            - cell "Treasury Holdings" [ref=e684]:
+              - generic [ref=e685]: Treasury Holdings
+            - cell "" [ref=e686]:
+              - generic [ref=e687]: 
+            - cell "" [ref=e688]:
+              - generic [ref=e689]: 
+            - cell "" [ref=e690]:
+              - generic [ref=e691]: 
+            - cell "" [ref=e692]:
+              - generic [ref=e693]: 
+            - cell "" [ref=e694]:
+              - generic [ref=e695]: 
+          - row "Historical Treasury Holdings 1 year 2 years from 2020 from 2020 from 2020" [ref=e696]:
+            - cell "Historical Treasury Holdings" [ref=e697]:
+              - generic [ref=e698]: Historical Treasury Holdings
+            - cell "1 year" [ref=e699]
+            - cell "2 years" [ref=e700]
+            - cell "from 2020" [ref=e701]
+            - cell "from 2020" [ref=e702]
+            - cell "from 2020" [ref=e703]
+          - row "Treasury Transaction History     " [ref=e704]:
+            - cell "Treasury Transaction History" [ref=e705]:
+              - generic [ref=e706]: Treasury Transaction History
+            - cell "" [ref=e707]:
+              - generic [ref=e708]: 
+            - cell "" [ref=e709]:
+              - generic [ref=e710]: 
+            - cell "" [ref=e711]:
+              - generic [ref=e712]: 
+            - cell "" [ref=e713]:
+              - generic [ref=e714]: 
+            - cell "" [ref=e715]:
+              - generic [ref=e716]: 
+          - row "NFT" [ref=e717]:
+            - cell "NFT" [ref=e718]:
+              - generic [ref=e719]: NFT
+            - cell [ref=e720]
+            - cell [ref=e721]
+            - cell [ref=e722]
+            - cell [ref=e723]
+            - cell [ref=e724]
+          - row "NFT Price, Market Cap, Volume     " [ref=e725]:
+            - cell "NFT Price, Market Cap, Volume" [ref=e726]:
+              - generic [ref=e727]: NFT Price, Market Cap, Volume
+            - cell "" [ref=e728]:
+              - generic [ref=e729]: 
+            - cell "" [ref=e730]:
+              - generic [ref=e731]: 
+            - cell "" [ref=e732]:
+              - generic [ref=e733]: 
+            - cell "" [ref=e734]:
+              - generic [ref=e735]: 
+            - cell "" [ref=e736]:
+              - generic [ref=e737]: 
+          - row "NFT Metadata (Community links, etc.)     " [ref=e738]:
+            - cell "NFT Metadata (Community links, etc.)" [ref=e739]:
+              - generic [ref=e740]: NFT Metadata (Community links, etc.)
+            - cell "" [ref=e741]:
+              - generic [ref=e742]: 
+            - cell "" [ref=e743]:
+              - generic [ref=e744]: 
+            - cell "" [ref=e745]:
+              - generic [ref=e746]: 
+            - cell "" [ref=e747]:
+              - generic [ref=e748]: 
+            - cell "" [ref=e749]:
+              - generic [ref=e750]: 
+          - row "NFT Historical Data     " [ref=e751]:
+            - cell "NFT Historical Data" [ref=e752]:
+              - generic [ref=e753]: NFT Historical Data
+            - cell "" [ref=e754]:
+              - generic [ref=e755]: 
+            - cell "" [ref=e756]:
+              - generic [ref=e757]: 
+            - cell "" [ref=e758]:
+              - generic [ref=e759]: 
+            - cell "" [ref=e760]:
+              - generic [ref=e761]: 
+            - cell "" [ref=e762]:
+              - generic [ref=e763]: 
+          - row "Onchain Tokens" [ref=e764]:
+            - cell "Onchain Tokens" [ref=e765]:
+              - generic [ref=e766]: Onchain Tokens
+            - cell [ref=e767]
+            - cell [ref=e768]
+            - cell [ref=e769]
+            - cell [ref=e770]
+            - cell [ref=e771]
+          - row "Token Price, Market Cap, Volume     " [ref=e772]:
+            - cell "Token Price, Market Cap, Volume" [ref=e773]:
+              - generic [ref=e774]: Token Price, Market Cap, Volume
+            - cell "" [ref=e775]:
+              - generic [ref=e776]: 
+            - cell "" [ref=e777]:
+              - generic [ref=e778]: 
+            - cell "" [ref=e779]:
+              - generic [ref=e780]: 
+            - cell "" [ref=e781]:
+              - generic [ref=e782]: 
+            - cell "" [ref=e783]:
+              - generic [ref=e784]: 
+          - row "Token Metadata (Security, Links, Holders, etc.)     " [ref=e785]:
+            - cell "Token Metadata (Security, Links, Holders, etc.)" [ref=e786]:
+              - generic [ref=e787]: Token Metadata (Security, Links, Holders, etc.)
+            - cell "" [ref=e788]:
+              - generic [ref=e789]: 
+            - cell "" [ref=e790]:
+              - generic [ref=e791]: 
+            - cell "" [ref=e792]:
+              - generic [ref=e793]: 
+            - cell "" [ref=e794]:
+              - generic [ref=e795]: 
+            - cell "" [ref=e796]:
+              - generic [ref=e797]: 
+          - row "Trending & Top Tokens     " [ref=e798]:
+            - cell "Trending & Top Tokens" [ref=e799]:
+              - generic [ref=e800]: Trending & Top Tokens
+            - cell "" [ref=e801]:
+              - generic [ref=e802]: 
+            - cell "" [ref=e803]:
+              - generic [ref=e804]: 
+            - cell "" [ref=e805]:
+              - generic [ref=e806]: 
+            - cell "" [ref=e807]:
+              - generic [ref=e808]: 
+            - cell "" [ref=e809]:
+              - generic [ref=e810]: 
+          - row "Token OHLCV Historical Chart 1 Minutely, 1 Second   from 2021 from 2021 from 2021" [ref=e811]:
+            - cell "Token OHLCV Historical Chart 1 Minutely, 1 Second" [ref=e812]:
+              - generic [ref=e813]:
+                - text: Token OHLCV Historical Chart
+                - generic [ref=e815]: 1 Minutely, 1 Second
+            - cell "" [ref=e816]:
+              - generic [ref=e817]: 
+            - cell "" [ref=e818]:
+              - generic [ref=e819]: 
+            - cell "from 2021" [ref=e820]
+            - cell "from 2021" [ref=e821]
+            - cell "from 2021" [ref=e822]
+          - row "Recent Token Trades     " [ref=e823]:
+            - cell "Recent Token Trades" [ref=e824]:
+              - generic [ref=e825]: Recent Token Trades
+            - cell "" [ref=e826]:
+              - generic [ref=e827]: 
+            - cell "" [ref=e828]:
+              - generic [ref=e829]: 
+            - cell "" [ref=e830]:
+              - generic [ref=e831]: 
+            - cell "" [ref=e832]:
+              - generic [ref=e833]: 
+            - cell "" [ref=e834]:
+              - generic [ref=e835]: 
+          - row "Top & Historical Token Holders     " [ref=e836]:
+            - cell "Top & Historical Token Holders" [ref=e837]:
+              - generic [ref=e838]: Top & Historical Token Holders
+            - cell "" [ref=e839]:
+              - generic [ref=e840]: 
+            - cell "" [ref=e841]:
+              - generic [ref=e842]: 
+            - cell "" [ref=e843]:
+              - generic [ref=e844]: 
+            - cell "" [ref=e845]:
+              - generic [ref=e846]: 
+            - cell "" [ref=e847]:
+              - generic [ref=e848]: 
+          - row "Top Token Traders     " [ref=e849]:
+            - cell "Top Token Traders" [ref=e850]:
+              - generic [ref=e851]: Top Token Traders
+            - cell "" [ref=e852]:
+              - generic [ref=e853]: 
+            - cell "" [ref=e854]:
+              - generic [ref=e855]: 
+            - cell "" [ref=e856]:
+              - generic [ref=e857]: 
+            - cell "" [ref=e858]:
+              - generic [ref=e859]: 
+            - cell "" [ref=e860]:
+              - generic [ref=e861]: 
+          - row "Onchain Pools" [ref=e862]:
+            - cell "Onchain Pools" [ref=e863]:
+              - generic [ref=e864]: Onchain Pools
+            - cell [ref=e865]
+            - cell [ref=e866]
+            - cell [ref=e867]
+            - cell [ref=e868]
+            - cell [ref=e869]
+          - row "Pool Price, Market Cap, Volume     " [ref=e870]:
+            - cell "Pool Price, Market Cap, Volume" [ref=e871]:
+              - generic [ref=e872]: Pool Price, Market Cap, Volume
+            - cell "" [ref=e873]:
+              - generic [ref=e874]: 
+            - cell "" [ref=e875]:
+              - generic [ref=e876]: 
+            - cell "" [ref=e877]:
+              - generic [ref=e878]: 
+            - cell "" [ref=e879]:
+              - generic [ref=e880]: 
+            - cell "" [ref=e881]:
+              - generic [ref=e882]: 
+          - row "Pool Metadata (Security, Links, Holders, etc.)     " [ref=e883]:
+            - cell "Pool Metadata (Security, Links, Holders, etc.)" [ref=e884]:
+              - generic [ref=e885]: Pool Metadata (Security, Links, Holders, etc.)
+            - cell "" [ref=e886]:
+              - generic [ref=e887]: 
+            - cell "" [ref=e888]:
+              - generic [ref=e889]: 
+            - cell "" [ref=e890]:
+              - generic [ref=e891]: 
+            - cell "" [ref=e892]:
+              - generic [ref=e893]: 
+            - cell "" [ref=e894]:
+              - generic [ref=e895]: 
+          - row "Pool Search (Network-specific)     " [ref=e896]:
+            - cell "Pool Search (Network-specific)" [ref=e897]:
+              - generic [ref=e898]: Pool Search (Network-specific)
+            - cell "" [ref=e899]:
+              - generic [ref=e900]: 
+            - cell "" [ref=e901]:
+              - generic [ref=e902]: 
+            - cell "" [ref=e903]:
+              - generic [ref=e904]: 
+            - cell "" [ref=e905]:
+              - generic [ref=e906]: 
+            - cell "" [ref=e907]:
+              - generic [ref=e908]: 
+          - row "Trending & Top Pools     " [ref=e909]:
+            - cell "Trending & Top Pools" [ref=e910]:
+              - generic [ref=e911]: Trending & Top Pools
+            - cell "" [ref=e912]:
+              - generic [ref=e913]: 
+            - cell "" [ref=e914]:
+              - generic [ref=e915]: 
+            - cell "" [ref=e916]:
+              - generic [ref=e917]: 
+            - cell "" [ref=e918]:
+              - generic [ref=e919]: 
+            - cell "" [ref=e920]:
+              - generic [ref=e921]: 
+          - row "Pool OHLCV Historical Chart 1 Minutely, 1 Second 6 months 6 months from 2021 from 2021 from 2021" [ref=e922]:
+            - cell "Pool OHLCV Historical Chart 1 Minutely, 1 Second" [ref=e923]:
+              - generic [ref=e924]:
+                - text: Pool OHLCV Historical Chart
+                - generic [ref=e926]: 1 Minutely, 1 Second
+            - cell "6 months" [ref=e927]
+            - cell "6 months" [ref=e928]
+            - cell "from 2021" [ref=e929]
+            - cell "from 2021" [ref=e930]
+            - cell "from 2021" [ref=e931]
+          - row "Recent Pool Trades     " [ref=e932]:
+            - cell "Recent Pool Trades" [ref=e933]:
+              - generic [ref=e934]: Recent Pool Trades
+            - cell "" [ref=e935]:
+              - generic [ref=e936]: 
+            - cell "" [ref=e937]:
+              - generic [ref=e938]: 
+            - cell "" [ref=e939]:
+              - generic [ref=e940]: 
+            - cell "" [ref=e941]:
+              - generic [ref=e942]: 
+            - cell "" [ref=e943]:
+              - generic [ref=e944]: 
+          - row " Megafilter     " [ref=e945]:
+            - cell " Megafilter" [ref=e946]:
+              - generic [ref=e947]:
+                - generic [ref=e948]: 
+                - text: Megafilter
+            - cell "" [ref=e949]:
+              - generic [ref=e950]: 
+            - cell "" [ref=e951]:
+              - generic [ref=e952]: 
+            - cell "" [ref=e953]:
+              - generic [ref=e954]: 
+            - cell "" [ref=e955]:
+              - generic [ref=e956]: 
+            - cell "" [ref=e957]:
+              - generic [ref=e958]: 
+          - row "Trending Search Pools     " [ref=e959]:
+            - cell "Trending Search Pools" [ref=e960]:
+              - generic [ref=e961]: Trending Search Pools
+            - cell "" [ref=e962]:
+              - generic [ref=e963]: 
+            - cell "" [ref=e964]:
+              - generic [ref=e965]: 
+            - cell "" [ref=e966]:
+              - generic [ref=e967]: 
+            - cell "" [ref=e968]:
+              - generic [ref=e969]: 
+            - cell "" [ref=e970]:
+              - generic [ref=e971]: 
+          - row "Pools by Category     " [ref=e972]:
+            - cell "Pools by Category" [ref=e973]:
+              - generic [ref=e974]: Pools by Category
+            - cell "" [ref=e975]:
+              - generic [ref=e976]: 
+            - cell "" [ref=e977]:
+              - generic [ref=e978]: 
+            - cell "" [ref=e979]:
+              - generic [ref=e980]: 
+            - cell "" [ref=e981]:
+              - generic [ref=e982]: 
+            - cell "" [ref=e983]:
+              - generic [ref=e984]: 
+          - row "Support" [ref=e985]:
+            - cell "Support" [ref=e986]:
+              - generic [ref=e987]: Support
+            - cell [ref=e988]
+            - cell [ref=e989]
+            - cell [ref=e990]
+            - cell [ref=e991]
+            - cell [ref=e992]
+          - row "FAQ Support + AI Assistant     " [ref=e993]:
+            - cell "FAQ Support + AI Assistant" [ref=e994]:
+              - generic [ref=e995]: FAQ Support + AI Assistant
+            - cell "" [ref=e996]:
+              - generic [ref=e997]: 
+            - cell "" [ref=e998]:
+              - generic [ref=e999]: 
+            - cell "" [ref=e1000]:
+              - generic [ref=e1001]: 
+            - cell "" [ref=e1002]:
+              - generic [ref=e1003]: 
+            - cell "" [ref=e1004]:
+              - generic [ref=e1005]: 
+          - row "SOC 2 Certified       + Report" [ref=e1006]:
+            - cell "SOC 2 Certified " [ref=e1007]:
+              - generic [ref=e1008]:
+                - text: SOC 2 Certified
+                - generic [ref=e1010]: 
+            - cell "" [ref=e1011]:
+              - generic [ref=e1012]: 
+            - cell "" [ref=e1013]:
+              - generic [ref=e1014]: 
+            - cell "" [ref=e1015]:
+              - generic [ref=e1016]: 
+            - cell "" [ref=e1017]:
+              - generic [ref=e1018]: 
+            - cell " + Report" [ref=e1019]:
+              - generic [ref=e1020]: 
+              - text: + Report
+          - row "Priority Email Support     " [ref=e1021]:
+            - cell "Priority Email Support" [ref=e1022]:
+              - generic [ref=e1023]: Priority Email Support
+            - cell "" [ref=e1024]:
+              - generic [ref=e1025]: 
+            - cell "" [ref=e1026]:
+              - generic [ref=e1027]: 
+            - cell "" [ref=e1028]:
+              - generic [ref=e1029]: 
+            - cell "" [ref=e1030]:
+              - generic [ref=e1031]: 
+            - cell "" [ref=e1032]:
+              - generic [ref=e1033]: 
+          - row "Dedicated Customer Success Manager     " [ref=e1034]:
+            - cell "Dedicated Customer Success Manager" [ref=e1035]:
+              - generic [ref=e1036]: Dedicated Customer Success Manager
+            - cell "" [ref=e1037]:
+              - generic [ref=e1038]: 
+            - cell "" [ref=e1039]:
+              - generic [ref=e1040]: 
+            - cell "" [ref=e1041]:
+              - generic [ref=e1042]: 
+            - cell "" [ref=e1043]:
+              - generic [ref=e1044]: 
+            - cell "" [ref=e1045]:
+              - generic [ref=e1046]: 
+          - row "Integration Consultation     " [ref=e1047]:
+            - cell "Integration Consultation" [ref=e1048]:
+              - generic [ref=e1049]: Integration Consultation
+            - cell "" [ref=e1050]:
+              - generic [ref=e1051]: 
+            - cell "" [ref=e1052]:
+              - generic [ref=e1053]: 
+            - cell "" [ref=e1054]:
+              - generic [ref=e1055]: 
+            - cell "" [ref=e1056]:
+              - generic [ref=e1057]: 
+            - cell "" [ref=e1058]:
+              - generic [ref=e1059]: 
+          - row "Slack Chat Support     " [ref=e1060]:
+            - cell "Slack Chat Support" [ref=e1061]:
+              - generic [ref=e1062]: Slack Chat Support
+            - cell "" [ref=e1063]:
+              - generic [ref=e1064]: 
+            - cell "" [ref=e1065]:
+              - generic [ref=e1066]: 
+            - cell "" [ref=e1067]:
+              - generic [ref=e1068]: 
+            - cell "" [ref=e1069]:
+              - generic [ref=e1070]: 
+            - cell "" [ref=e1071]:
+              - generic [ref=e1072]: 
+          - row "24x7 Support     " [ref=e1073]:
+            - cell "24x7 Support" [ref=e1074]:
+              - generic [ref=e1075]: 24x7 Support
+            - cell "" [ref=e1076]:
+              - generic [ref=e1077]: 
+            - cell "" [ref=e1078]:
+              - generic [ref=e1079]: 
+            - cell "" [ref=e1080]:
+              - generic [ref=e1081]: 
+            - cell "" [ref=e1082]:
+              - generic [ref=e1083]: 
+            - cell "" [ref=e1084]:
+              - generic [ref=e1085]: 
+          - row "Service Level Agreement (SLA)     99.9%" [ref=e1086]:
+            - cell "Service Level Agreement (SLA)" [ref=e1087]:
+              - generic [ref=e1088]: Service Level Agreement (SLA)
+            - cell "" [ref=e1089]:
+              - generic [ref=e1090]: 
+            - cell "" [ref=e1091]:
+              - generic [ref=e1092]: 
+            - cell "" [ref=e1093]:
+              - generic [ref=e1094]: 
+            - cell "" [ref=e1095]:
+              - generic [ref=e1096]: 
+            - cell "99.9%" [ref=e1097]
+      - generic [ref=e1098]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e1099]
+        - generic [ref=e1101]:
+          - navigation [ref=e1102]:
+            - link "General" [ref=e1103]:
+              - /url: "#general"
+              - generic [ref=e1104]: General
+            - link "Pricing" [ref=e1105] [cursor=pointer]:
+              - /url: "#pricing"
+              - generic [ref=e1106]: Pricing
+            - link "Plans" [ref=e1107] [cursor=pointer]:
+              - /url: "#plans"
+              - generic [ref=e1108]: Plans
+            - link "Data and Security" [ref=e1109] [cursor=pointer]:
+              - /url: "#data_and_security"
+              - generic [ref=e1110]: Data and Security
+            - link "Support" [ref=e1111] [cursor=pointer]:
+              - /url: "#support"
+              - generic [ref=e1112]: Support
+            - link "Warning" [ref=e1113] [cursor=pointer]:
+              - /url: "#warning"
+              - generic [ref=e1114]: Warning
+            - link "Case Studies " [ref=e1115] [cursor=pointer]:
+              - /url: https://www.coingecko.com/en/api/case-studies
+              - generic [ref=e1117]:
+                - text: Case Studies
+                - generic [ref=e1118]: 
+          - generic [ref=e1122]:
+            - generic [ref=e1123]:
+              - term [ref=e1124]: Can I try out the API? Where can I find the documentation?
+              - definition [ref=e1125]:
+                - paragraph [ref=e1126]:
+                  - text: Sure thing - you may find our API documentation
+                  - link "here" [ref=e1127] [cursor=pointer]:
+                    - /url: "https://docs.coingecko.com "
+                  - text: .
+            - generic [ref=e1128]:
+              - term [ref=e1129]: Do I need API keys to access your Public API?
+              - definition [ref=e1130]:
+                - paragraph [ref=e1131]: Yes, please subscribe to a paid plan above or create demo account to get your API key.
+            - generic [ref=e1132]:
+              - term [ref=e1133]: I can’t seem to query for data XYZ despite using the name of coin XYZ as an identifier for an endpoint. Where can I get the full list of coins and identifiers?
+              - definition [ref=e1134]:
+                - paragraph [ref=e1135]:
+                  - text: Do check
+                  - link "here" [ref=e1136] [cursor=pointer]:
+                    - /url: https://api.coingecko.com/api/v3/coins/list
+                  - text: or this
+                  - link "Google Sheets" [ref=e1137] [cursor=pointer]:
+                    - /url: https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit#gid=0t
+                  - text: for the full list of coins and their respective identifiers. With over 18,000+ different cryptocurrencies available for query, coin names may not be unique and cannot be used directly as the identifier.
+            - generic [ref=e1138]:
+              - term [ref=e1139]: Is there a guide to get started for beginners?
+              - definition [ref=e1140]:
+                - paragraph [ref=e1141]:
+                  - text: You may check out our tutorial guidebook
+                  - link "here" [ref=e1142] [cursor=pointer]:
+                    - /url: https://docs.coingecko.com/docs/10-mins-tutorial-guide
+                  - text: "!"
+            - generic [ref=e1143]:
+              - term [ref=e1144]: Can I access your data through Google Sheets directly?
+              - definition [ref=e1145]:
+                - paragraph [ref=e1146]:
+                  - text: Yes!
+                  - link "Here" [ref=e1147] [cursor=pointer]:
+                    - /url: https://www.coingecko.com/learn/import-crypto-prices-google-sheets
+                  - text: is a step-by-step guide on how you can use our API on your Google Sheets.
+            - generic [ref=e1148]:
+              - term [ref=e1149]: Can I access your data through Microsoft Excel directly?
+              - definition [ref=e1150]:
+                - paragraph [ref=e1151]:
+                  - text: Definitely! You may refer to the step-by-step guide on how you can use our API on Microsoft Excel
+                  - link "here" [ref=e1152] [cursor=pointer]:
+                    - /url: https://www.coingecko.com/learn/import-crypto-prices-excel
+                  - text: .
+            - generic [ref=e1153]:
+              - term [ref=e1154]: Do you have a dedicated news section for API users to keep up with changes and updates?
+              - definition [ref=e1155]:
+                - paragraph [ref=e1156]:
+                  - text: Sure thing - follow us
+                  - link "here" [ref=e1157] [cursor=pointer]:
+                    - /url: https://newsletter.coingecko.com/landing/api_updates_subscribe
+                  - text: on our API Newsletter! We’ll only send API related news and nothing else.
+            - generic [ref=e1158]:
+              - term [ref=e1159]: Where can I read CoinGecko API Terms of Service?
+              - definition [ref=e1160]:
+                - paragraph [ref=e1161]:
+                  - text: You can find our Terms of Service
+                  - link "here" [ref=e1162] [cursor=pointer]:
+                    - /url: https://www.coingecko.com/en/api_terms
+                  - text: .
+            - generic [ref=e1163]:
+              - term [ref=e1164]: What is the changelog for this API?
+              - definition [ref=e1165]:
+                - paragraph [ref=e1166]:
+                  - text: You can find the API changelog
+                  - link "here" [ref=e1167] [cursor=pointer]:
+                    - /url: https://docs.coingecko.com/changelog
+                  - text: .
+        - generic [ref=e1168]:
+          - generic [ref=e1169]: Have more questions?
+          - generic [ref=e1170]:
+            - generic [ref=e1172]:
+              - generic [ref=e1175]: 
+              - generic [ref=e1176]:
+                - text: Explore our
+                - link "API docs" [ref=e1177] [cursor=pointer]:
+                  - /url: https://docs.coingecko.com
+            - generic [ref=e1179]:
+              - generic [ref=e1182]: 
+              - generic [ref=e1183]:
+                - text: Check our
+                - link "Help Centre" [ref=e1184] [cursor=pointer]:
+                  - /url: https://support.coingecko.com/hc/en-us/categories/4538696187673-CoinGecko-API
+          - generic [ref=e1185]:
+            - text: For Enterprise sales enquiry, please contact us
+            - link "here" [ref=e1186] [cursor=pointer]:
+              - /url: https://www.coingecko.com/en/api/enterprise
+  - contentinfo [ref=e1187]:
+    - generic [ref=e1188]:
+      - generic [ref=e1192]:
+        - generic [ref=e1193]:
+          - link "CoinGecko" [ref=e1194] [cursor=pointer]:
+            - /url: /
+            - img "CoinGecko" [ref=e1195]
+          - generic [ref=e1196]: CoinGecko provides a fundamental analysis of the crypto market. In addition to tracking price, volume and market capitalisation, CoinGecko tracks community growth, open-source code development, major events and on-chain metrics.
+          - img [ref=e1197]
+          - img [ref=e1198]
+        - generic [ref=e1200]:
+          - generic [ref=e1201]:
+            - generic [ref=e1202]: Resources
+            - text: +
+          - generic [ref=e1203]:
+            - link "Crypto News" [ref=e1204] [cursor=pointer]:
+              - /url: /en/news
+              - generic [ref=e1205]: Crypto News
+            - link "Crypto Treasuries" [ref=e1206] [cursor=pointer]:
+              - /url: /en/treasuries
+              - generic [ref=e1207]: Crypto Treasuries
+            - link "Crypto Heatmap" [ref=e1208] [cursor=pointer]:
+              - /url: /en/cryptocurrency-heatmap
+              - generic [ref=e1209]: Crypto Heatmap
+            - link "Crypto API" [ref=e1210] [cursor=pointer]:
+              - /url: /en/api
+              - generic [ref=e1211]: Crypto API
+        - generic [ref=e1212]:
+          - generic [ref=e1213]:
+            - generic [ref=e1214]: Support
+            - text: +
+          - generic [ref=e1215]:
+            - link "Request Form" [ref=e1216] [cursor=pointer]:
+              - /url: /request-form?locale=en
+              - generic [ref=e1217]: Request Form
+            - link "Advertising" [ref=e1218] [cursor=pointer]:
+              - /url: https://gcko.io/coingeckoads
+              - generic [ref=e1219]: Advertising
+            - link "Candy Rewards Listing" [ref=e1220] [cursor=pointer]:
+              - /url: /en/candy/partners-getting-started
+              - generic [ref=e1221]: Candy Rewards Listing
+            - link "Help Center" [ref=e1222] [cursor=pointer]:
+              - /url: https://support.coingecko.com/
+              - generic [ref=e1223]: Help Center
+            - link "Bug Bounty" [ref=e1224] [cursor=pointer]:
+              - /url: https://hackenproof.com/coingecko/coingecko
+              - generic [ref=e1225]: Bug Bounty
+            - link "FAQ" [ref=e1226] [cursor=pointer]:
+              - /url: /en/faq
+              - generic [ref=e1227]: FAQ
+        - generic [ref=e1228]:
+          - generic [ref=e1229]:
+            - generic [ref=e1230]: About CoinGecko
+            - text: +
+          - generic [ref=e1231]:
+            - link "About Us" [ref=e1232] [cursor=pointer]:
+              - /url: /en/about
+              - generic [ref=e1233]: About Us
+            - link "Careers Join Us" [ref=e1234] [cursor=pointer]:
+              - /url: https://careers.coingecko.com/
+              - generic [ref=e1235]: Careers
+              - generic [ref=e1237]: Join Us
+            - link "Branding Guide" [ref=e1238] [cursor=pointer]:
+              - /url: https://brand.coingecko.com
+              - generic [ref=e1239]: Branding Guide
+            - link "Methodology" [ref=e1240] [cursor=pointer]:
+              - /url: /en/methodology
+              - generic [ref=e1241]: Methodology
+            - link "Disclaimer" [ref=e1242] [cursor=pointer]:
+              - /url: /en/disclaimer
+              - generic [ref=e1243]: Disclaimer
+            - link "Terms of Service" [ref=e1244] [cursor=pointer]:
+              - /url: /en/terms
+              - generic [ref=e1245]: Terms of Service
+            - link "Privacy Policy" [ref=e1246] [cursor=pointer]:
+              - /url: /en/privacy
+              - generic [ref=e1247]: Privacy Policy
+            - link "Ad Policy" [ref=e1248] [cursor=pointer]:
+              - /url: /en/ad-policy
+              - generic [ref=e1249]: Ad Policy
+            - generic [ref=e1251] [cursor=pointer]: Cookie Preferences
+            - link "Trust Center" [ref=e1252] [cursor=pointer]:
+              - /url: https://trust.coingecko.com
+              - generic [ref=e1253]: Trust Center
+        - generic [ref=e1254]:
+          - generic [ref=e1255]:
+            - generic [ref=e1256]: Community
+            - text: +
+          - generic [ref=e1257]:
+            - link "X/Twitter" [ref=e1258] [cursor=pointer]:
+              - /url: https://twitter.com/coingecko
+              - generic [ref=e1259]: X/Twitter
+            - link "Telegram Chat" [ref=e1260] [cursor=pointer]:
+              - /url: https://t.me/coingecko
+              - generic [ref=e1261]: Telegram Chat
+            - link "Telegram News" [ref=e1262] [cursor=pointer]:
+              - /url: https://t.me/coingeckonews
+              - generic [ref=e1263]: Telegram News
+            - link "Instagram" [ref=e1264] [cursor=pointer]:
+              - /url: https://www.instagram.com/coingecko/
+              - generic [ref=e1265]: Instagram
+            - link "Reddit" [ref=e1266] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/coingecko/
+              - generic [ref=e1267]: Reddit
+            - link "Discord" [ref=e1268] [cursor=pointer]:
+              - /url: https://discord.gg/EhrkaCH
+              - generic [ref=e1269]: Discord
+            - link "Facebook" [ref=e1270] [cursor=pointer]:
+              - /url: https://www.facebook.com/coingecko
+              - generic [ref=e1271]: Facebook
+            - link "Youtube" [ref=e1272] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC-OTgwOAI7KmP0eDAtqN3Ow?sub_confirmation=1
+              - generic [ref=e1273]: Youtube
+            - link "TikTok" [ref=e1274] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@coingeckotv
+              - generic [ref=e1275]: TikTok
+      - generic [ref=e1278]:
+        - generic [ref=e1279]:
+          - generic [ref=e1280]: Interested to stay up-to-date with cryptocurrencies?
+          - generic [ref=e1281]: Get the latest crypto news, updates, and reports by subscribing to our free newsletter.
+        - generic [ref=e1284]:
+          - textbox "Enter your email address" [ref=e1288]
+          - generic [ref=e1289]:
+            - button "Subscribe" [disabled]:
+              - generic: Subscribe
+      - generic [ref=e1292]:
+        - generic [ref=e1294]: © 2026 CoinGecko. All Rights Reserved.
+        - generic [ref=e1295]:
+          - link "Google Play Store Button" [ref=e1296] [cursor=pointer]:
+            - /url: https://coingecko.app.link/footer-android
+            - img "Google Play Store Button" [ref=e1297]
+          - link "Apple App Store Button" [ref=e1298] [cursor=pointer]:
+            - /url: https://coingecko.app.link/footer-ios
+            - img "Apple App Store Button" [ref=e1299]
+      - generic [ref=e1300]:
+        - link "IMPORTANT DISCLAIMER:" [ref=e1301] [cursor=pointer]:
+          - /url: /en/disclaimer
+        - text: All content provided herein our website, hyperlinked sites, associated applications, forums, blogs, social media accounts and other platforms (“Site”) is for your general information only, procured from third party sources. We make no warranties of any kind in relation to our content, including but not limited to accuracy and updatedness. No part of the content that we provide constitutes financial advice, legal advice or any other form of advice meant for your specific reliance for any purpose. Any use or reliance on our content is solely at your own risk and discretion. You should conduct your own research, review, analyse and verify our content before relying on them. Trading is a highly risky activity that can lead to major losses, please therefore consult your financial advisor before making any decision. No content on our Site is meant to be a solicitation or offer.
+  - generic:  
+  - generic:  
+  - text:      
+  - generic:        
+  - generic:  
+  - generic: 
+  - text: 
+  - button "" [ref=e1304] [cursor=pointer]:
+    - generic [ref=e1306]: 
+  - text:     
+  - img [ref=e1307]
